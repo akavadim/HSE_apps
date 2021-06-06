@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Arnet.Web.Models.Admin.UserViewModel>
+@{
+    ViewData["Title"] = "Пользователи";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>ФИО</th>
+            <th>Номер телефона</th>
+            <th>Тип аккаунта</th>
+            <th>Редактировать</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Account.AccountId</td>
+                <td>@user.Account.SecondName @user.Account.FirstName @user.Account.MiddleName</td>
+                <td>@user.Phone.Number</td>
+                <td>@user.Account.AccountType.Type.ToString()</td>
+                <td>
+                    <a href="@Url.Action("EditPublishments", "Moder", new { id=user.Account.AccountId})">Объявления</a>
+                    @if (user.Ban == null)
+                    {
+                        <a href="@Url.Action("BanAccount", "Moder", new { id = user.Account.AccountId })">Заблокировать</a>
+                    }
+                    else
+                    {
+                        <a href="@Url.Action("UnbanAccount", "Moder", new { id=user.Account.AccountId})">Разблокировать</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

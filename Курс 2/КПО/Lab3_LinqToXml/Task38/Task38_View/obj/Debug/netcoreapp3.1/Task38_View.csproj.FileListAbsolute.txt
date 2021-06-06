@@ -1,0 +1,14 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task38\Task38_View\bin\Debug\netcoreapp3.1\Task38_View.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task38\Task38_View\bin\Debug\netcoreapp3.1\Task38_View.deps.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task38\Task38_View\bin\Debug\netcoreapp3.1\Task38_View.runtimeconfig.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task38\Task38_View\bin\Debug\netcoreapp3.1\Task38_View.runtimeconfig.dev.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task38\Task38_View\bin\Debug\netcoreapp3.1\Task38_View.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task38\Task38_View\bin\Debug\netcoreapp3.1\Task38_View.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task38\Task38_View\bin\Debug\netcoreapp3.1\Task38_Model.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task38\Task38_View\bin\Debug\netcoreapp3.1\Task38_Model.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task38\Task38_View\obj\Debug\netcoreapp3.1\Task38_View.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task38\Task38_View\obj\Debug\netcoreapp3.1\Task38_View.AssemblyInfoInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task38\Task38_View\obj\Debug\netcoreapp3.1\Task38_View.AssemblyInfo.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task38\Task38_View\obj\Debug\netcoreapp3.1\Task38_View.csproj.CopyComplete
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task38\Task38_View\obj\Debug\netcoreapp3.1\Task38_View.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task38\Task38_View\obj\Debug\netcoreapp3.1\Task38_View.pdb

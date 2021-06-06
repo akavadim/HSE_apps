@@ -1,0 +1,9 @@
+﻿@model Arnet.Web.Areas.Account.Models.Registration.PhoneModel
+
+<div class="field">
+    <div class="field-name">@Html.DisplayNameFor(m => m.Phone)</div>
+    <div class="field-content">
+        @Html.EditorFor(m => m.Phone)
+        @Html.ValidationMessageFor(m => m.Phone)
+    </div>
+</div>

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1611224002960.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4244506141",
+    "id" : "B9D688C3",
+    "lastKnownWriteTime" : 1591421354,
+    "last_content_update" : 1591421354,
+    "path" : "C:/Users/vadim/OneDrive/Рабочий стол/HSE/Курс 2/Методы компьютинга/lab8/res.R",
+    "project_path" : "res.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

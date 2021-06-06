@@ -1,0 +1,42 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\bin\Debug\netcoreapp3.1\Ex4_Alarm.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\bin\Debug\netcoreapp3.1\Ex4_Alarm.deps.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\bin\Debug\netcoreapp3.1\Ex4_Alarm.runtimeconfig.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\bin\Debug\netcoreapp3.1\Ex4_Alarm.runtimeconfig.dev.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\bin\Debug\netcoreapp3.1\Ex4_Alarm.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\bin\Debug\netcoreapp3.1\Ex4_Alarm.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm_MarkupCompile.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm_MarkupCompile.lref
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm.g.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm.AssemblyInfoInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm.AssemblyInfo.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\bin\Debug\netcoreapp3.1\WpfControlLibrary.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\bin\Debug\netcoreapp3.1\WpfControlLibrary.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm.csproj.CopyComplete
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm_MarkupCompile.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm_MarkupCompile.lref
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\bin\Debug\netcoreapp3.1\Ex4_Alarm.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\bin\Debug\netcoreapp3.1\Ex4_Alarm.deps.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\bin\Debug\netcoreapp3.1\Ex4_Alarm.runtimeconfig.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\bin\Debug\netcoreapp3.1\Ex4_Alarm.runtimeconfig.dev.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\bin\Debug\netcoreapp3.1\Ex4_Alarm.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\bin\Debug\netcoreapp3.1\Ex4_Alarm.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\bin\Debug\netcoreapp3.1\WpfControlLibrary.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\bin\Debug\netcoreapp3.1\WpfControlLibrary.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm.g.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm.AssemblyInfoInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm.AssemblyInfo.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm.csproj.CoreCompileInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm.csproj.CopyComplete
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\Ex4_Alarm\Ex4_Alarm\obj\Debug\netcoreapp3.1\Ex4_Alarm.genruntimeconfig.cache

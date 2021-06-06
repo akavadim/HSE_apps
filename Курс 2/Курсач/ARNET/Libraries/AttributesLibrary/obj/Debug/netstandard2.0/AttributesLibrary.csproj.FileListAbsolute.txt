@@ -1,0 +1,8 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\Libraries\AttributesLibrary\bin\Debug\netstandard2.0\AttributesLibrary.deps.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\Libraries\AttributesLibrary\bin\Debug\netstandard2.0\AttributesLibrary.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\Libraries\AttributesLibrary\obj\Debug\netstandard2.0\AttributesLibrary.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\Libraries\AttributesLibrary\obj\Debug\netstandard2.0\AttributesLibrary.AssemblyInfoInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\Libraries\AttributesLibrary\obj\Debug\netstandard2.0\AttributesLibrary.AssemblyInfo.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\Libraries\AttributesLibrary\bin\Debug\netstandard2.0\AttributesLibrary.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\Libraries\AttributesLibrary\obj\Debug\netstandard2.0\AttributesLibrary.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\Libraries\AttributesLibrary\obj\Debug\netstandard2.0\AttributesLibrary.pdb

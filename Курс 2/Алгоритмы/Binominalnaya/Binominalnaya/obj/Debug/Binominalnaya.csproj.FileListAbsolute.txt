@@ -1,0 +1,7 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\Binominalnaya\Binominalnaya\bin\Debug\Binominalnaya.exe.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\Binominalnaya\Binominalnaya\bin\Debug\Binominalnaya.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\Binominalnaya\Binominalnaya\bin\Debug\Binominalnaya.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\Binominalnaya\Binominalnaya\obj\Debug\Binominalnaya.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\Binominalnaya\Binominalnaya\obj\Debug\Binominalnaya.csproj.CoreCompileInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\Binominalnaya\Binominalnaya\obj\Debug\Binominalnaya.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\Binominalnaya\Binominalnaya\obj\Debug\Binominalnaya.pdb

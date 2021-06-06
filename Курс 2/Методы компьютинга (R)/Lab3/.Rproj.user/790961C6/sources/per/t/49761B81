@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1587417739612.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "49761B81",
+    "lastKnownWriteTime" : 7598543875853023333,
+    "last_content_update" : 1587417739612,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "BB229E03",
+        "caption" : "survived",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=survived&cache_key=BB229E03",
+        "displayedObservations" : "290",
+        "environment" : "",
+        "expression" : "survived",
+        "object" : "survived",
+        "preview" : "0",
+        "totalObservations" : "290",
+        "variables" : "13"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

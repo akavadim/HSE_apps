@@ -1,0 +1,27 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Styles{ @RenderSection("Styles", false)}
+
+<h4>Агентство: @ViewBag.CompanyName</h4>
+<hr />
+<div class="row">
+    <div class="col-md-3">
+        <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+                <a class="nav-link @Html.IsActive("Info", "Agency")" href="@Url.Action("Info", "Agency", new { companyId=ViewBag.CompanyId})">Информация</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link @Html.IsActive("Publishments", "Agency")" href="@Url.Action("Publishments","Agency", new { companyId=ViewBag.CompanyId})">Объявления</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link @Html.IsActive("Agents", "Agency") @Html.IsActive("Invites", "Agency")" href="@Url.Action("Agents", "Agency", new { companyId=ViewBag.CompanyId})">Агенты</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-9">
+        @RenderBody()
+    </div>
+</div>
+
+@section Scripts{ @RenderSection("Scripts", false)}

@@ -1,0 +1,8 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task62\Task62_Model\bin\Debug\netcoreapp3.1\Task62_Model.deps.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task62\Task62_Model\bin\Debug\netcoreapp3.1\Task62_Model.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task62\Task62_Model\bin\Debug\netcoreapp3.1\Task62_Model.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task62\Task62_Model\obj\Debug\netcoreapp3.1\Task62_Model.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task62\Task62_Model\obj\Debug\netcoreapp3.1\Task62_Model.AssemblyInfoInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task62\Task62_Model\obj\Debug\netcoreapp3.1\Task62_Model.AssemblyInfo.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task62\Task62_Model\obj\Debug\netcoreapp3.1\Task62_Model.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task62\Task62_Model\obj\Debug\netcoreapp3.1\Task62_Model.pdb

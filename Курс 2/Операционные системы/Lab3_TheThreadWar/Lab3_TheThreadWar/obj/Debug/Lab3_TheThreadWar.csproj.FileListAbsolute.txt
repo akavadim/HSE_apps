@@ -1,0 +1,6 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab3_TheThreadWar\Lab3_TheThreadWar\bin\Debug\Lab3_TheThreadWar.exe.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab3_TheThreadWar\Lab3_TheThreadWar\bin\Debug\Lab3_TheThreadWar.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab3_TheThreadWar\Lab3_TheThreadWar\bin\Debug\Lab3_TheThreadWar.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab3_TheThreadWar\Lab3_TheThreadWar\obj\Debug\Lab3_TheThreadWar.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab3_TheThreadWar\Lab3_TheThreadWar\obj\Debug\Lab3_TheThreadWar.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab3_TheThreadWar\Lab3_TheThreadWar\obj\Debug\Lab3_TheThreadWar.pdb

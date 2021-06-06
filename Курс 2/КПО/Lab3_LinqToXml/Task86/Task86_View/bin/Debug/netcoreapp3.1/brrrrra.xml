@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<students>
+  <total-time>P4D</total-time>
+  <Артемов_А.Б. class="8">
+    <mark5 subject="Иностранный яз." />
+    <mark4 subject="Русский яз." />
+    <mark4 subject="Физика" />
+    <mark4 subject="Физкультура" />
+  </Артемов_А.Б.>
+  <Степанов_Г.Б. class="9">
+    <mark5 subject="Иностранный яз." />
+    <mark4 subject="Русский яз." />
+    <mark4 subject="Физика" />
+    <mark4 subject="Физкультура" />
+  </Степанов_Г.Б.>
+  <Степанова_Г.Б. class="8">
+    <mark5 subject="Иностранный яз." />
+    <mark4 subject="Русский яз." />
+    <mark4 subject="Физика" />
+    <mark4 subject="Физкультура" />
+  </Степанова_Г.Б.>
+  <Степанова_Г.Б. class="9">
+    <mark5 subject="Иностранный яз." />
+    <mark4 subject="Русский яз." />
+    <mark4 subject="Физика" />
+    <mark4 subject="Физкультура" />
+  </Степанова_Г.Б.>
+</students>

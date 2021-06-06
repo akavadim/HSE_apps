@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="XmlTask">
+      <HintPath>..\..\TaskHandler\TaskHandler_PluginFormat\bin\Debug\netcoreapp3.1\XmlTask.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+﻿<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link @Html.IsActive("Moderators", "Admin")" href="@Url.Action("Moderators", "Admin")">Модераторы</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link @Html.IsActive("Invites", "Admin")" href="@Url.Action("Invites", "Admin")">Приглашения</a>
+    </li>
+</ul>
+<br />

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<students>
+  <total-time>P4D</total-time>
+  <students-Артемов_А.Б. class="8">
+    <students-Артемов_А.Б.-mark5 subject="Иностранный яз." />
+    <students-Артемов_А.Б.-mark4 subject="Русский яз." />
+    <students-Артемов_А.Б.-mark4 subject="Физика" />
+    <students-Артемов_А.Б.-mark4 subject="Физкультура" />
+  </students-Артемов_А.Б.>
+  <students-Степанов_Г.Б. class="9">
+    <students-Степанов_Г.Б.-mark5 subject="Иностранный яз." />
+    <students-Степанов_Г.Б.-mark4 subject="Русский яз." />
+    <students-Степанов_Г.Б.-mark4 subject="Физика" />
+    <students-Степанов_Г.Б.-mark4 subject="Физкультура" />
+  </students-Степанов_Г.Б.>
+  <students-Степанова_Г.Б. class="8">
+    <students-Степанова_Г.Б.-mark5 subject="Иностранный яз." />
+    <students-Степанова_Г.Б.-mark4 subject="Русский яз." />
+    <students-Степанова_Г.Б.-mark4 subject="Физика" />
+    <students-Степанова_Г.Б.-mark4 subject="Физкультура" />
+  </students-Степанова_Г.Б.>
+  <students-Степанова_Г.Б. class="9">
+    <students-Степанова_Г.Б.-mark5 subject="Иностранный яз." />
+    <students-Степанова_Г.Б.-mark4 subject="Русский яз." />
+    <students-Степанова_Г.Б.-mark4 subject="Физика" />
+    <students-Степанова_Г.Б.-mark4 subject="Физкультура" />
+  </students-Степанова_Г.Б.>
+</students>

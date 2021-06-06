@@ -1,0 +1,6 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task6_3\Task6_3\bin\Debug\Task6_3.exe.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task6_3\Task6_3\bin\Debug\Task6_3.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task6_3\Task6_3\bin\Debug\Task6_3.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task6_3\Task6_3\obj\Debug\Task6_3.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task6_3\Task6_3\obj\Debug\Task6_3.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task6_3\Task6_3\obj\Debug\Task6_3.csprojAssemblyReference.cache

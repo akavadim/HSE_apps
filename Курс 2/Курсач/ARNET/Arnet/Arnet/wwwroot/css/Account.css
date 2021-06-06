@@ -1,0 +1,18 @@
+﻿/*Поля при регистрации*/
+
+.field {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.field-name {
+    width: 180px;
+    align-self:center;
+}
+
+.field-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}

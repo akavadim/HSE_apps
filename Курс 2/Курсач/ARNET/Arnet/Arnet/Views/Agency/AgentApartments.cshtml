@@ -1,0 +1,38 @@
+﻿@model Arnet.Web.Models.Agency.AgentApartmentsViewModel
+@{
+    ViewData["Title"] = "Апартаменты агента";
+}
+<label>Агент: <a href="@Url.Action("Profile", "Account", new { id=Model.Agent.AccountId})"> @Model.Agent.SecondName @Model.Agent.FirstName @Model.Agent.MiddleName </a></label>
+<form method="post">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Объявление</th>
+                <th>Выбрать</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.SelectApartments.Length; i++)
+            {
+                <tr>
+                    <td>
+                        @Html.HiddenFor(m => m.SelectApartments[i].Apartment.ApartmentId)
+                        <label>@Model.SelectApartments[i].Apartment.ApartmentId</label>
+                    </td>
+                    <td>
+                        <a href="@Url.Action("info", "Apartment", new { id=Model.SelectApartments[i].Apartment.ApartmentId})">Просмотреть</a>
+                    </td>
+                    <td>
+                        @Html.CheckBoxFor(m => m.SelectApartments[i].IsSelected, new { @class="select-apartment"})
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <input class="btn btn-primary" id="submit-move" type="submit" asp-action="MoveToAgent" value="Переместить" disabled/>
+</form>
+
+@section Scripts{ 
+<script src="~/js/Agency/AgentApartments.js"></script>
+}

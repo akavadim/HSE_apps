@@ -1,0 +1,7 @@
+a) //Day/Subjects/Subject/Name
+b) //Day/Subjects/Subject/LectureHall
+c) //Day/Subjects/Subject[Type='Seminar']/Name
+b) //Day/Subjects/Subject[LectureHall='102']/Name
+e) //Day/Subjects/Subject[LectureHall='504'][Type='Seminar']/Teacher
+f) //Day/Subjects/Subject[last()]/Name
+g) count(//Day/Subjects/Subject)

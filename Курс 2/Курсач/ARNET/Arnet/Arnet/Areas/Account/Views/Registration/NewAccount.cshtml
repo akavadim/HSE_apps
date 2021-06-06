@@ -1,0 +1,61 @@
+﻿@model Arnet.Web.Areas.Account.Models.Registration.NewAccountViewModel
+@{
+    ViewData["Title"] = "Регистрация";
+}
+<h4>@ViewData["Title"]</h4>
+<form id="new-account-form" class="col-md-5">
+    <div class="field">
+        @if (ViewBag.InviteMd5 == null)
+        {
+            <div class="field-name">
+                <input type="radio" name="account-type" class="account-type" value="User" checked />
+                <label>Физическое лицо</label>
+            </div>
+            <div>
+                <input type="radio" name="account-type" class="account-type" value="Agency" />
+                <label>Юридическое лицо</label>
+            </div>
+        }
+        else if (ViewBag.CompanyName != null)
+        {
+            <input hidden type="radio" name="account-type" class="account-type" value="User" checked />
+            <div class="field">
+                <div class="field-name">Тип аккаунта</div>
+                <div class="field-content">Агент</div>
+            </div>
+            <div class="field">
+                <div class="field-name">Компания</div>
+                <div class="field-content">@ViewBag.CompanyName</div>
+            </div>
+            <input hidden asp-for="InviteMd5" value="@ViewBag.InviteMd5" />
+        }
+        else
+        {
+            <input hidden type="radio" name="account-type" class="account-type" value="User" checked />
+            <div class="field">
+                <div class="field-name">Тип аккаунта</div>
+                <div class="field-content">Модератор</div>
+            </div>
+            <input hidden asp-for="InviteMd5" value="@ViewBag.InviteMd5" />
+        }
+    </div>
+    <div id="company-info" style="display:none">
+        @Html.EditorFor(m => m.CompanyModel)
+    </div>
+    <div id="account-info">
+        @Html.EditorFor(m => m.AccountModel)
+    </div>
+    <p>
+        <input id="new-account-btn" class="btn btn-primary" type="button" value="Продолжить" href="@Url.Action("NewAccount")" />
+    </p>
+</form>
+<div id="phone-modal" class="modal fade"></div>
+
+@section Styles{
+    <link rel="stylesheet" href="~/css/Account.css" />
+}
+
+@section Scripts{
+    <script src="~/js/Account/NewAccount.js"></script>
+}
+

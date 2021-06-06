@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex4_Alarm", "Ex4_Alarm\Ex4_Alarm.csproj", "{125A5A49-9828-431E-88CC-9F464C85295A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfControlLibrary", "..\WpfControlLibrary\WpfControlLibrary\WpfControlLibrary.csproj", "{A2C03FAB-FD8E-49CB-AD26-99852485C56F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{125A5A49-9828-431E-88CC-9F464C85295A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125A5A49-9828-431E-88CC-9F464C85295A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125A5A49-9828-431E-88CC-9F464C85295A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125A5A49-9828-431E-88CC-9F464C85295A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C03FAB-FD8E-49CB-AD26-99852485C56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C03FAB-FD8E-49CB-AD26-99852485C56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C03FAB-FD8E-49CB-AD26-99852485C56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C03FAB-FD8E-49CB-AD26-99852485C56F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F71388CA-880A-450E-9FC7-B88B54ACC4F4}
+	EndGlobalSection
+EndGlobal

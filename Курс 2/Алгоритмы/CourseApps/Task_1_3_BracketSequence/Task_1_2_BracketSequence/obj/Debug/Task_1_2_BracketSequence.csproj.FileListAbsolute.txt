@@ -1,0 +1,7 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_1_2_BracketSequence\Task_1_2_BracketSequence\bin\Debug\Task_1_2_BracketSequence.exe.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_1_2_BracketSequence\Task_1_2_BracketSequence\bin\Debug\Task_1_2_BracketSequence.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_1_2_BracketSequence\Task_1_2_BracketSequence\bin\Debug\Task_1_2_BracketSequence.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_1_2_BracketSequence\Task_1_2_BracketSequence\obj\Debug\Task_1_2_BracketSequence.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_1_2_BracketSequence\Task_1_2_BracketSequence\obj\Debug\Task_1_2_BracketSequence.csproj.CoreCompileInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_1_2_BracketSequence\Task_1_2_BracketSequence\obj\Debug\Task_1_2_BracketSequence.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_1_2_BracketSequence\Task_1_2_BracketSequence\obj\Debug\Task_1_2_BracketSequence.pdb

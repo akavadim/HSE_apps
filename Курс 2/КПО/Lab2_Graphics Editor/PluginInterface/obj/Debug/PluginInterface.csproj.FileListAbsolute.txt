@@ -1,0 +1,5 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\PluginInterface\bin\Debug\PluginInterface.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\PluginInterface\bin\Debug\PluginInterface.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\PluginInterface\obj\Debug\PluginInterface.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\PluginInterface\obj\Debug\PluginInterface.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\PluginInterface\obj\Debug\PluginInterface.pdb

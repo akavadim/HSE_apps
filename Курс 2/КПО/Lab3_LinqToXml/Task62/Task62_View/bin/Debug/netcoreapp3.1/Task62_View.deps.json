@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Task62_View/1.0.0": {
+        "dependencies": {
+          "Task62_Model": "1.0.0"
+        },
+        "runtime": {
+          "Task62_View.dll": {}
+        }
+      },
+      "Task62_Model/1.0.0": {
+        "runtime": {
+          "Task62_Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Task62_View/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Task62_Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

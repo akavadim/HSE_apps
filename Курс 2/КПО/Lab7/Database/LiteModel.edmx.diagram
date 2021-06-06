@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a9653452b97542b998770761c1f4c2d1" Name="Diagram1" >
+        <EntityTypeShape EntityType="LiteModel.User" Width="1.5" PointX="5.875" PointY="2.125" />
+        <EntityTypeShape EntityType="LiteModel.Ban" Width="1.5" PointX="3.625" PointY="1" />
+        <AssociationConnector Association="LiteModel.BanUser" />
+        <EntityTypeShape EntityType="LiteModel.Phone" Width="1.5" PointX="7.625" PointY="1" />
+        <AssociationConnector Association="LiteModel.UserPhone" ManuallyRouted="false" >
+        </AssociationConnector>
+        <EntityTypeShape EntityType="LiteModel.Email" Width="1.5" PointX="7.625" PointY="3.5" />
+        <AssociationConnector Association="LiteModel.UserEmail" />
+        <EntityTypeShape EntityType="LiteModel.Password" Width="1.5" PointX="9.375" PointY="3.125" />
+        <AssociationConnector Association="LiteModel.UserPassword" />
+        <EntityTypeShape EntityType="LiteModel.Agency" Width="1.5" PointX="1.75" PointY="2.75" />
+        <AssociationConnector Association="LiteModel.UserAgency" />
+        <EntityTypeShape EntityType="LiteModel.Agent" Width="1.5" PointX="3.75" PointY="3.5" />
+        <AssociationConnector Association="LiteModel.UserAgent" />
+        <AssociationConnector Association="LiteModel.AgencyAgent" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

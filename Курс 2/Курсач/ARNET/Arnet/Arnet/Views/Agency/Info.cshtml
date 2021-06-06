@@ -1,0 +1,39 @@
+﻿@model Arnet.Web.Models.Agency.InfoViewModel
+@{
+    ViewData["Title"] = "Информация";
+}
+
+<h4>Информация об агентстве</h4>
+<form class="col-md-6" method="post">
+    @Html.ValidationSummary()
+    <div class="form-group">
+        @Html.LabelFor(m => m.AgencyName)
+        @if (Model.IsOwner)
+        {
+            @Html.EditorFor(m => m.AgencyName, new { htmlAttributes = new { @class = "form-control" } })
+        }
+        else
+        {
+            @Html.EditorFor(m => m.AgencyName, new { htmlAttributes = new { @class = "form-control", @disabled = true } })
+        }
+        @Html.HiddenFor(m => m.IsOwner)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.AgentCount)
+        @Html.EditorFor(m => m.AgentCount, new { htmlAttributes = new { @class = "form-control", @disabled = true } })
+        @Html.HiddenFor(m => m.AgentCount)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.SoldCount)
+        @Html.EditorFor(m => m.SoldCount, new { htmlAttributes = new { @class = "form-control", @disabled = true } })
+        @Html.HiddenFor(m => m.SoldCount)
+    </div>
+    <p>
+        @if (Model.IsOwner)
+        {
+            <input class="btn btn-primary" type="submit" value="Сохранить" />
+        }
+        <a href="">Пожаловаться</a>
+    </p>
+    </form>
+

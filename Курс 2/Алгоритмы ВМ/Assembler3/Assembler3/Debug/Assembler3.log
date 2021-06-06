@@ -1,0 +1,6 @@
+﻿  Assembler3.cpp
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(22,2): warning C4102: res_by_n: неиспользованная метка
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(52,1): warning C4102: res_by_toch: неиспользованная метка
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(89,2): warning C4102: res_original: неиспользованная метка
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(18,3): warning C4101: check: неиспользованная локальная переменная
+  Assembler3.vcxproj -> C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Debug\Assembler3.exe

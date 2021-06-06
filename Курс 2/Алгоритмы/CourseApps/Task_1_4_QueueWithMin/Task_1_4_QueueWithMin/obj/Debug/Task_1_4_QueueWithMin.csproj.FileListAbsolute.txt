@@ -1,0 +1,7 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_1_4_QueueWithMin\Task_1_4_QueueWithMin\bin\Debug\Task_1_4_QueueWithMin.exe.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_1_4_QueueWithMin\Task_1_4_QueueWithMin\bin\Debug\Task_1_4_QueueWithMin.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_1_4_QueueWithMin\Task_1_4_QueueWithMin\bin\Debug\Task_1_4_QueueWithMin.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_1_4_QueueWithMin\Task_1_4_QueueWithMin\obj\Debug\Task_1_4_QueueWithMin.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_1_4_QueueWithMin\Task_1_4_QueueWithMin\obj\Debug\Task_1_4_QueueWithMin.csproj.CoreCompileInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_1_4_QueueWithMin\Task_1_4_QueueWithMin\obj\Debug\Task_1_4_QueueWithMin.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_1_4_QueueWithMin\Task_1_4_QueueWithMin\obj\Debug\Task_1_4_QueueWithMin.pdb

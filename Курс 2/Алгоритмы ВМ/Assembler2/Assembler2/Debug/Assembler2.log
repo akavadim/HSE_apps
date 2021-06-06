@@ -1,0 +1,5 @@
+﻿  Assembler2.cpp
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler2\Assembler2\Assembler2.cpp(501,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler2\Assembler2\Assembler2.cpp(35,2): warning C4102:  start: неиспользованная метка
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler2\Assembler2\Assembler2.cpp(474,2): warning C4102:  maxPositions_by_index: неиспользованная метка
+  Assembler2.vcxproj -> C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler2\Debug\Assembler2.exe

@@ -1,0 +1,11 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab3_ThreadWar\Lab3_ThreadWar\bin\Debug\netcoreapp3.1\Lab3_ThreadWar.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab3_ThreadWar\Lab3_ThreadWar\bin\Debug\netcoreapp3.1\Lab3_ThreadWar.deps.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab3_ThreadWar\Lab3_ThreadWar\bin\Debug\netcoreapp3.1\Lab3_ThreadWar.runtimeconfig.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab3_ThreadWar\Lab3_ThreadWar\bin\Debug\netcoreapp3.1\Lab3_ThreadWar.runtimeconfig.dev.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab3_ThreadWar\Lab3_ThreadWar\bin\Debug\netcoreapp3.1\Lab3_ThreadWar.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab3_ThreadWar\Lab3_ThreadWar\bin\Debug\netcoreapp3.1\Lab3_ThreadWar.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab3_ThreadWar\Lab3_ThreadWar\obj\Debug\netcoreapp3.1\Lab3_ThreadWar.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab3_ThreadWar\Lab3_ThreadWar\obj\Debug\netcoreapp3.1\Lab3_ThreadWar.AssemblyInfoInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab3_ThreadWar\Lab3_ThreadWar\obj\Debug\netcoreapp3.1\Lab3_ThreadWar.AssemblyInfo.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab3_ThreadWar\Lab3_ThreadWar\obj\Debug\netcoreapp3.1\Lab3_ThreadWar.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab3_ThreadWar\Lab3_ThreadWar\obj\Debug\netcoreapp3.1\Lab3_ThreadWar.pdb

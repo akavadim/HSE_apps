@@ -1,0 +1,49 @@
+﻿@model Arnet.Web.Models.Account.ProfileViewModel
+@{
+    ViewData["Title"] = "Профиль";
+}
+
+@if (Model.Account.AccountType.Type != Arnet.Database.AccountTypesEnum.User)
+{
+    <div class="form-group">
+        <label>Тип аккаунта: @Model.Account.AccountType.Type</label>
+    </div>
+}
+@if (Model.Agency != null)
+{
+    <div class="form-group">
+        <label>Агентство:</label>
+        <a href="@Url.Action("Info", "Agency", new { companyId=Model.Agency.CompanyId})">@Model.Agency.Name</a>
+    </div>
+}
+<div class="form-group">
+    <label>Имя</label>
+    <input class="form-control" disabled asp-for="Account.FirstName" />
+</div>
+<div class="form-group">
+    <label>Фамилия</label>
+    <input class="form-control" disabled asp-for="Account.SecondName" />
+</div>
+@if (!string.IsNullOrWhiteSpace(Model.Account.MiddleName))
+{
+    <div class="form-group">
+        <label>Отчество</label>
+        <input class="form-control" disabled asp-for="Account.MiddleName" />
+    </div>
+}
+@if (Model.Email != null)
+{
+    <div class="form-group">
+        <label>Email</label>
+        <input class="form-control" disabled asp-for="Email.Value" />
+    </div>
+}
+@if (Model.Phone != null)
+{
+    <div class="form-group">
+        <label>Телефон</label>
+        <input class="form-control" disabled asp-for="Phone.Number" />
+    </div>
+}
+<a href="">Пожаловаться</a>
+

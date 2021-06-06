@@ -1,0 +1,7 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task4_4\Task4_4\bin\Debug\Task4_4.exe.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task4_4\Task4_4\bin\Debug\Task4_4.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task4_4\Task4_4\bin\Debug\Task4_4.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task4_4\Task4_4\obj\Debug\Task4_4.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task4_4\Task4_4\obj\Debug\Task4_4.csproj.CoreCompileInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task4_4\Task4_4\obj\Debug\Task4_4.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task4_4\Task4_4\obj\Debug\Task4_4.pdb

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1587414453415.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7E68364A",
+    "lastKnownWriteTime" : 1586875725,
+    "last_content_update" : 1586875725,
+    "path" : "C:/Users/vadim/OneDrive/Рабочий стол/HSE/Методы компьютинга/Lab1/Task1.1.R",
+    "project_path" : "Task1.1.R",
+    "properties" : {
+        "cursorPosition" : "1,20",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

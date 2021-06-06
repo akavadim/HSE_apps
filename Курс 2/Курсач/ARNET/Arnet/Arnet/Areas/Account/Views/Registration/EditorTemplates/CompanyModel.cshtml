@@ -1,0 +1,9 @@
+﻿@model Arnet.Web.Areas.Account.Models.Registration.CompanyModel
+
+<div class="field">
+    <div class="field-name">@Html.DisplayNameFor(m=>m.Name)</div>
+    <div class="field-content">
+        @Html.EditorFor(m=>m.Name, new{ htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(m=>m.Name)
+    </div>
+</div>

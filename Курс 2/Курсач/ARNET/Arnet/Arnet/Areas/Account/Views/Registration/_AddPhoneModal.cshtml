@@ -1,0 +1,23 @@
+﻿<div class="modal-dialog modal-dialog-centered" tabindex="-1">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class='modal-title'>Заголовок</h5>
+            <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+                <span aria-hidden='true'>&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form method="post" id="phone-form">
+                @Html.Partial("EditorTemplates/PhoneModel")
+            </form>
+            <form id="phone-code-form" style="display:none">
+                @Html.Partial("EditorTemplates/PhoneCode")
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button id="send-message-btn" type='button' class='btn btn-primary' href="@Url.Action("SendMessage")">Отправить код</button>
+            <button id="registration-btn" type="button" class="btn btn-primary" href="@Url.Action("Registration")" style="display:none">Зарегистрироваться</button>
+        </div>
+    </div>
+</div>
+

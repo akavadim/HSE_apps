@@ -1,0 +1,5 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab7_ArnetAdminApp\App\obj\Debug\App.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab7_ArnetAdminApp\App\obj\Debug\MainWindow.g.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab7_ArnetAdminApp\App\obj\Debug\App.g.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab7_ArnetAdminApp\App\obj\Debug\App_MarkupCompile.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab7_ArnetAdminApp\App\obj\Debug\App_MarkupCompile.lref

@@ -1,0 +1,14 @@
+#Task3
+
+#1
+df<-read.csv("Titanic.csv")
+summary(df)
+
+#2
+ggplot(df, aes(Age))+
+  geom_histogram(color="black", fill="white")+
+  labs(title="Гистограмма для Age")
+
+#3
+boxplot(df$Age)
+length(boxplot.stats(df$Age)$out)

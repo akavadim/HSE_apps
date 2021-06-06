@@ -1,0 +1,12 @@
+﻿@model Arnet.Web.Models.Apartment.AddApartmentViewModel
+@{
+    ViewData["Title"] = "Добавление апартаментов";
+}
+
+<form method="post">
+    <div class="form-group">
+        <label>Название</label>
+        <input class="form-control" asp-for="Name" />
+    </div>
+    <input type="submit" class="btn btn-primary" value="Отправить" />
+</form>

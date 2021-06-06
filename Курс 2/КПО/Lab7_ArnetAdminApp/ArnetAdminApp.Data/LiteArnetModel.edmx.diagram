@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c1d774b0fa4a42628f28fddfca85c761" Name="Diagram1" >
+        <EntityTypeShape EntityType="LiteArnetModel.User" Width="1.5" PointX="4.625" PointY="2.125" />
+        <EntityTypeShape EntityType="LiteArnetModel.Ban" Width="1.5" PointX="2.75" PointY="1.5" />
+        <AssociationConnector Association="LiteArnetModel.UserBan" />
+        <EntityTypeShape EntityType="LiteArnetModel.Email" Width="1.5" PointX="9.375" PointY="2.125" />
+        <AssociationConnector Association="LiteArnetModel.UserEmail" />
+        <EntityTypeShape EntityType="LiteArnetModel.Password" Width="1.5" PointX="7.875" PointY="3" />
+        <AssociationConnector Association="LiteArnetModel.UserPassword" />
+        <EntityTypeShape EntityType="LiteArnetModel.Phone" Width="1.5" PointX="6.25" PointY="3.75" />
+        <AssociationConnector Association="LiteArnetModel.UserPhone" />
+        <EntityTypeShape EntityType="LiteArnetModel.Agency" Width="1.5" PointX="1.125" PointY="3.25" />
+        <AssociationConnector Association="LiteArnetModel.UserAgency" />
+        <EntityTypeShape EntityType="LiteArnetModel.Agent" Width="1.5" PointX="2.75" PointY="4" />
+        <AssociationConnector Association="LiteArnetModel.UserAgent" />
+        <AssociationConnector Association="LiteArnetModel.AgencyAgent" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

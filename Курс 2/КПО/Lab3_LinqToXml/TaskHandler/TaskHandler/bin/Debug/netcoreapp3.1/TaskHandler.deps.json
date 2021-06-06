@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TaskHandler/1.0.0": {
+        "dependencies": {
+          "XmlTask": "1.0.0"
+        },
+        "runtime": {
+          "TaskHandler.dll": {}
+        }
+      },
+      "XmlTask/1.0.0": {
+        "runtime": {
+          "XmlTask.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TaskHandler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "XmlTask/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

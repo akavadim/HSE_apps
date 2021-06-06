@@ -1,0 +1,8 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\TaskHandler\TaskHandler_PluginFormat\bin\Debug\netcoreapp3.1\XmlTask.deps.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\TaskHandler\TaskHandler_PluginFormat\bin\Debug\netcoreapp3.1\XmlTask.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\TaskHandler\TaskHandler_PluginFormat\bin\Debug\netcoreapp3.1\XmlTask.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\TaskHandler\TaskHandler_PluginFormat\obj\Debug\netcoreapp3.1\XmlTask.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\TaskHandler\TaskHandler_PluginFormat\obj\Debug\netcoreapp3.1\XmlTask.AssemblyInfoInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\TaskHandler\TaskHandler_PluginFormat\obj\Debug\netcoreapp3.1\XmlTask.AssemblyInfo.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\TaskHandler\TaskHandler_PluginFormat\obj\Debug\netcoreapp3.1\XmlTask.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\TaskHandler\TaskHandler_PluginFormat\obj\Debug\netcoreapp3.1\XmlTask.pdb

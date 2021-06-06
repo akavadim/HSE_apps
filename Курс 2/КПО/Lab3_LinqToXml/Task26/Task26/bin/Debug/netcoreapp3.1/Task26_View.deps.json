@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Task26_View/1.0.0": {
+        "dependencies": {
+          "Task26_Model": "1.0.0"
+        },
+        "runtime": {
+          "Task26_View.dll": {}
+        }
+      },
+      "Task26_Model/1.0.0": {
+        "runtime": {
+          "Task26_Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Task26_View/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Task26_Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

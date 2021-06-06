@@ -1,0 +1,12 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex2_SelectPathApp\SelectPathApp\bin\Debug\SelectPathApp.exe.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex2_SelectPathApp\SelectPathApp\bin\Debug\SelectPathApp.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex2_SelectPathApp\SelectPathApp\bin\Debug\SelectPathApp.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex2_SelectPathApp\SelectPathApp\bin\Debug\WinControllers.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex2_SelectPathApp\SelectPathApp\bin\Debug\WinControllers.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex2_SelectPathApp\SelectPathApp\obj\Debug\SelectPathApp.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex2_SelectPathApp\SelectPathApp\obj\Debug\SelectPathApp.Properties.Resources.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex2_SelectPathApp\SelectPathApp\obj\Debug\SelectPathApp.csproj.GenerateResource.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex2_SelectPathApp\SelectPathApp\obj\Debug\SelectPathApp.csproj.CopyComplete
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex2_SelectPathApp\SelectPathApp\obj\Debug\SelectPathApp.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex2_SelectPathApp\SelectPathApp\obj\Debug\SelectPathApp.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex2_SelectPathApp\SelectPathApp\obj\Debug\SelectPathApp.PathSelectAppp.resources

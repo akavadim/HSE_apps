@@ -1,0 +1,12 @@
+﻿@if (User.FindFirst(c => c.Type == ArnetClaimTypes.CompanyId)?.Value == ((int)ViewBag.CompanyId).ToString())
+{
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link @Html.IsActive("Agents", "Agency")" href="@Url.Action("Agents", "Agency", new { companyId=ViewBag.CompanyId})">Агенты</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link @Html.IsActive("Invites", "Agency")" href="@Url.Action("Invites", "Agency", new { companyId=ViewBag.CompanyId})">Приглашения</a>
+        </li>
+    </ul>
+    <br/>
+}

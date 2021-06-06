@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1589200187491.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3592850407",
+    "id" : "C83CD6D8",
+    "lastKnownWriteTime" : 1589199982,
+    "last_content_update" : 1589199982,
+    "path" : "C:/Users/vadim/OneDrive/Рабочий стол/HSE/Методы компьютинга/Lab5/Tasks.R",
+    "project_path" : "Tasks.R",
+    "properties" : {
+        "cursorPosition" : "50,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,9 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\ArnetEntitiesLibrary\ArnetEntitiesLibrary\bin\Debug\netstandard2.0\ArnetEntitiesLibrary.deps.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\ArnetEntitiesLibrary\ArnetEntitiesLibrary\bin\Debug\netstandard2.0\ArnetEntitiesLibrary.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\ArnetEntitiesLibrary\ArnetEntitiesLibrary\obj\Debug\netstandard2.0\ArnetEntitiesLibrary.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\ArnetEntitiesLibrary\ArnetEntitiesLibrary\obj\Debug\netstandard2.0\ArnetEntitiesLibrary.AssemblyInfoInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\ArnetEntitiesLibrary\ArnetEntitiesLibrary\obj\Debug\netstandard2.0\ArnetEntitiesLibrary.AssemblyInfo.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\ArnetEntitiesLibrary\ArnetEntitiesLibrary\bin\Debug\netstandard2.0\ArnetEntitiesLibrary.dll.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\ArnetEntitiesLibrary\ArnetEntitiesLibrary\bin\Debug\netstandard2.0\ArnetEntitiesLibrary.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\ArnetEntitiesLibrary\ArnetEntitiesLibrary\obj\Debug\netstandard2.0\ArnetEntitiesLibrary.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\ArnetEntitiesLibrary\ArnetEntitiesLibrary\obj\Debug\netstandard2.0\ArnetEntitiesLibrary.pdb

@@ -1,0 +1,3 @@
+install.packages("xlsx")
+library(xlsx)
+df<-xlsx("AppleStore.xlsx")

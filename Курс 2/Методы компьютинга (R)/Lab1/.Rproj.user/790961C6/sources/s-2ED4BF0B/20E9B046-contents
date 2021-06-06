@@ -1,0 +1,2 @@
+name = readline("You'r name: ")
+cat("Hello, ", name)

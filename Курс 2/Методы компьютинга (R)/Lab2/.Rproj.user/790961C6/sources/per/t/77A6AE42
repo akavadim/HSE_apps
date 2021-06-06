@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1587042462617.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3891836566",
+    "id" : "77A6AE42",
+    "lastKnownWriteTime" : 1587048100,
+    "last_content_update" : 1587048100420,
+    "path" : "C:/Users/vadim/OneDrive/Рабочий стол/HSE/Курс 2/Методы компьютинга/Lab2/Task8.R",
+    "project_path" : "Task8.R",
+    "properties" : {
+        "cursorPosition" : "13,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

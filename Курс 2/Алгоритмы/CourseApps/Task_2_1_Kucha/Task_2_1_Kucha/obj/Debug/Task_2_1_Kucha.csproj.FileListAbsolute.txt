@@ -1,0 +1,7 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_2_1_Kucha\Task_2_1_Kucha\obj\Debug\Task_2_1_Kucha.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_2_1_Kucha\Task_2_1_Kucha\obj\Debug\Task_2_1_Kucha.csproj.CoreCompileInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_2_1_Kucha\Task_2_1_Kucha\bin\Debug\Task_2_1_Kucha.exe.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_2_1_Kucha\Task_2_1_Kucha\bin\Debug\Task_2_1_Kucha.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_2_1_Kucha\Task_2_1_Kucha\bin\Debug\Task_2_1_Kucha.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_2_1_Kucha\Task_2_1_Kucha\obj\Debug\Task_2_1_Kucha.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task_2_1_Kucha\Task_2_1_Kucha\obj\Debug\Task_2_1_Kucha.pdb

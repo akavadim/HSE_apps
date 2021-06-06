@@ -1,0 +1,6 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\TaskType2\TaskType2\bin\Debug\TaskType2.exe.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\TaskType2\TaskType2\bin\Debug\TaskType2.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\TaskType2\TaskType2\bin\Debug\TaskType2.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\TaskType2\TaskType2\obj\Debug\TaskType2.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\TaskType2\TaskType2\obj\Debug\TaskType2.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\TaskType2\TaskType2\obj\Debug\TaskType2.pdb

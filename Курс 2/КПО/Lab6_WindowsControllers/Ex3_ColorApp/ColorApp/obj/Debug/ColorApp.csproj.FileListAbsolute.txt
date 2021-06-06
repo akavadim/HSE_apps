@@ -1,0 +1,12 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex3_ColorApp\ColorApp\bin\Debug\ColorApp.exe.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex3_ColorApp\ColorApp\bin\Debug\ColorApp.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex3_ColorApp\ColorApp\bin\Debug\ColorApp.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex3_ColorApp\ColorApp\obj\Debug\ColorApp.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex3_ColorApp\ColorApp\obj\Debug\ColorApp.Properties.Resources.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex3_ColorApp\ColorApp\obj\Debug\ColorApp.csproj.GenerateResource.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex3_ColorApp\ColorApp\obj\Debug\ColorApp.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex3_ColorApp\ColorApp\obj\Debug\ColorApp.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex3_ColorApp\ColorApp\bin\Debug\WinControllers.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex3_ColorApp\ColorApp\bin\Debug\WinControllers.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex3_ColorApp\ColorApp\obj\Debug\ColorApp.Form1.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\Ex3_ColorApp\ColorApp\obj\Debug\ColorApp.csproj.CopyComplete

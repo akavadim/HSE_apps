@@ -1,0 +1,12 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\DBEntitiesFramework\DBEntitiesFramework\bin\Debug\DBEntitiesFramework.dll.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\DBEntitiesFramework\DBEntitiesFramework\bin\Debug\DBEntitiesFramework.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\DBEntitiesFramework\DBEntitiesFramework\bin\Debug\DBEntitiesFramework.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\DBEntitiesFramework\DBEntitiesFramework\bin\Debug\EntityFramework.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\DBEntitiesFramework\DBEntitiesFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\DBEntitiesFramework\DBEntitiesFramework\bin\Debug\EntityFramework.xml
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\DBEntitiesFramework\DBEntitiesFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\DBEntitiesFramework\DBEntitiesFramework\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\DBEntitiesFramework\DBEntitiesFramework\obj\Debug\DBEntitiesFramework.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\DBEntitiesFramework\DBEntitiesFramework\obj\Debug\DBEntitiesFramework.csproj.CopyComplete
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\DBEntitiesFramework\DBEntitiesFramework\obj\Debug\DBEntitiesFramework.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курсовая\ARNET\DBEntitiesFramework\DBEntitiesFramework\obj\Debug\DBEntitiesFramework.pdb

@@ -1,0 +1,23 @@
+﻿@model Arnet.Web.Models.Admin.ReportsViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Отчеты";
+}
+
+@{await Html.RenderPartialAsync(@"_DataTable", Model.NewUsers); }
+<a class="btn btn-primary" type="submit" href="/Admin/DownloadReport/NewUsers">Скачать</a>
+<br />
+@{await Html.RenderPartialAsync(@"_DataTable", Model.NewPublishmetns); }
+<a class="btn btn-primary" type="submit" href="/Admin/DownloadReport/NewPublishments">Скачать</a>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th style="text-align:center">
+                Данные всех пользователей
+            </th>
+        </tr>
+    </thead>
+</table>
+<a class="btn btn-primary" type="submit" href="/Admin/DownloadReport/AllUsers">Скачать</a>
+

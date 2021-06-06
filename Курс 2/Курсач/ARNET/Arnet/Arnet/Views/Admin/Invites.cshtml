@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Arnet.Database.ModeratorInvite>
+@{
+    ViewData["Title"] = "Приглашения";
+}
+
+@Html.Partial("_ModeratorInviteTabs")
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ссылка</th>
+            <th>Истекает(UTC)</th>
+            <th>Удалить</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var invite in Model)
+        {
+            <tr id="invite-@invite.InviteId">
+                <td>
+                    <div class="input-group">
+                        <input class="form-control" value="@Url.ActionLink("NewAccount", "Account", new { id = invite.Md5 })" readonly />
+                        <div class="input-group-append">
+                            <button class="btn btn-primary btn-copy" onclick="CopyById(@invite.InviteId)">Копировать</button>
+                        </div>
+                    </div>
+                </td>
+                <td>@invite.DateTo</td>
+                <td><a class="async-link" invite-id="@invite.InviteId" href="@Url.Action("RemoveInvite", "Admin", new {id = invite.InviteId })" >Удалить</a> </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section Scripts{
+    <script src="~/js/Agency/Invites.js"></script>
+}

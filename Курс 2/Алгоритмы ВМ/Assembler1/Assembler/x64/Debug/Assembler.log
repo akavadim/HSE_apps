@@ -1,0 +1,52 @@
+﻿  Assembler.cpp
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(20,2): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(21,7): error C2065: ebx: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(21,10): error C3192: синтаксическая ошибка: "^" не является префиксным оператором (возможно, имелось в виду "*"?)
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(21,12): error C2065: ebx: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(22,7): error C2065: eax: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(22,12): error C2065: eax: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(23,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(23,3): error C2065: mov: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(23,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ax"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(23,7): error C2065: ax: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(24,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(24,3): error C2065: mov: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(24,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "si"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(24,7): error C2065: si: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(25,7): error C2065: cl: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(25,11): error C2065: cl: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(26,2): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cycle"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(27,7): error C2065: edx: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(27,10): error C3192: синтаксическая ошибка: "^" не является префиксным оператором (возможно, имелось в виду "*"?)
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(27,12): error C2065: edx: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(28,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "div"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(28,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "si"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(28,3): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(28,7): error C2065: si: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(29,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "shl"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(29,3): error C2065: shl: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(29,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "edx"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(29,7): error C2065: edx: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(29,12): error C2065: cl: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(30,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "add"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(30,3): error C2065: add: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(30,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cl"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(30,7): error C2065: cl: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(31,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "add"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(31,3): error C2065: add: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(31,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ebx"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(31,7): error C2065: ebx: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(31,12): error C2065: edx: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(32,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cmp"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(32,3): error C2065: cmp: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(32,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ax"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(32,7): error C2065: ax: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(33,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "jnz"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(33,3): error C2065: jnz: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(33,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cycle"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(33,7): error C2065: cycle: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(34,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(34,3): error C2065: mov: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(34,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "result"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(34,15): error C2065: ebx: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\Архитектура ВМ\Assembler\Assembler\Assembler.cpp(35,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"

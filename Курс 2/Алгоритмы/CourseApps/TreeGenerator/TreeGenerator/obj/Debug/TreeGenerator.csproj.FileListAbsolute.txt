@@ -1,0 +1,7 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\TreeGenerator\TreeGenerator\bin\Debug\TreeGenerator.exe.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\TreeGenerator\TreeGenerator\bin\Debug\TreeGenerator.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\TreeGenerator\TreeGenerator\bin\Debug\TreeGenerator.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\TreeGenerator\TreeGenerator\obj\Debug\TreeGenerator.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\TreeGenerator\TreeGenerator\obj\Debug\TreeGenerator.csproj.CoreCompileInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\TreeGenerator\TreeGenerator\obj\Debug\TreeGenerator.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\TreeGenerator\TreeGenerator\obj\Debug\TreeGenerator.pdb

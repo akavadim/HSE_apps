@@ -1,0 +1,32 @@
+﻿@model Arnet.Web.Models.Account.LoginViewModel
+
+@{
+    ViewData["Title"] = "Авторизация";
+}
+
+@section Styles{
+    <link rel="stylesheet" href="~/css/Account.css" />
+}
+
+<h4>@ViewData["Title"]</h4>
+<form class="col-md-5" method="post">
+    @Html.ValidationSummary()
+    <div class="field">
+        <div class="field-name">@Html.DisplayNameFor(m => m.Login)</div>
+        <div class="field-content">
+            @Html.EditorFor(m => m.Login, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(m => m.Login)
+        </div>
+    </div>
+    <div class="field">
+        <div class="field-name">@Html.DisplayNameFor(m => m.Password)</div>
+        <div class="field-content">
+            <input type="password" asp-for="Password" class="form-control" />
+            @Html.ValidationMessageFor(m => m.Password)
+
+        </div>
+    </div>
+    <p>
+        <input class="btn btn-primary" type="submit" value="Войти" />
+    </p>
+</form>

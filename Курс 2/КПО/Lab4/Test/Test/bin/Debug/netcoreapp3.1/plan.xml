@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Schedule[
+  <!ELEMENT Schedule (Day*)>
+  <!ELEMENT Day (DayName, Subjects?)>
+  <!ELEMENT DayName (#PCDATA)>
+  <!ELEMENT Subjects (Subject+)>
+  <!ELEMENT Subject (Name, LectureHall, Teacher, Type, StartTime, EndTime)>
+  <!ELEMENT Name (#PCDATA)>
+  <!ELEMENT LectureHall (#PCDATA)>
+  <!ELEMENT Teacher (#PCDATA)>
+  <!ELEMENT Type (#PCDATA)>
+  <!ELEMENT StartTime (#PCDATA)>
+  <!ELEMENT EndTime (#PCDATA)>
+]>
+<Schedule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.myschema.ru plan.xsd">
+  <Day>
+    <DayName>Monday</DayName>
+    <Subjects>
+      <Subject>
+        <Name>Английский</Name>
+        <LectureHall>110</LectureHall>
+        <Teacher>Садикова Т.Б.</Teacher>
+        <Type>Seminar</Type>
+        <StartTime>08:10:00</StartTime>
+        <EndTime>09:30:00</EndTime>
+      </Subject>
+      <Subject>
+        <Name>Английский</Name>
+        <LectureHall>110</LectureHall>
+        <Teacher>Садикова Т.Б.</Teacher>
+        <Type>Seminar</Type>
+        <StartTime>09:40:00</StartTime>
+        <EndTime>11:00:00</EndTime>
+      </Subject>
+      <Subject>
+        <Name>Алгоритмы и структуры данных</Name>
+        <LectureHall>504</LectureHall>
+        <Teacher>Морозенко В.В.</Teacher>
+        <Type>Seminar</Type>
+        <StartTime>11:30:00</StartTime>
+        <EndTime>12:50:00</EndTime>
+      </Subject>
+    </Subjects>
+  </Day>
+  <Day>
+    <DayName>Tuesday</DayName>
+    <Subjects>
+      <Subject>
+        <Name>Базы данных</Name>
+        <LectureHall>510</LectureHall>
+        <Teacher>Хренов В.В.</Teacher>
+        <Type>Seminar</Type>
+        <StartTime>11:30:00</StartTime>
+        <EndTime>12:50:00</EndTime>
+      </Subject>
+      <Subject>
+        <Name>Конструирование программ. обеспечения</Name>
+        <LectureHall>102</LectureHall>
+        <Teacher>Ланин В.В.</Teacher>
+        <Type>Lecture</Type>
+        <StartTime>13:00:00</StartTime>
+        <EndTime>14:20:00</EndTime>
+      </Subject>
+    </Subjects>
+  </Day>
+  <Day>
+    <DayName>Wednesday</DayName>
+    <Subjects>
+      <Subject>
+        <Name>Конструирование программ. обеспечения</Name>
+        <LectureHall>509</LectureHall>
+        <Teacher>Ланин В.В.</Teacher>
+        <Type>Seminar</Type>
+        <StartTime>09:40:00</StartTime>
+        <EndTime>11:00:00</EndTime>
+      </Subject>
+      <Subject>
+        <Name>Операционные системы</Name>
+        <LectureHall>305</LectureHall>
+        <Teacher>Ланин В.В.</Teacher>
+        <Type>Seminar</Type>
+        <StartTime>11:30:00</StartTime>
+        <EndTime>12:50:00</EndTime>
+      </Subject>
+      <Subject>
+        <Name>Стат. и эмпер. методы компьютинга</Name>
+        <LectureHall>511</LectureHall>
+        <Teacher>Радионова М.В.</Teacher>
+        <Type>Seminar</Type>
+        <StartTime>13:00:00</StartTime>
+        <EndTime>14:20:00</EndTime>
+      </Subject>
+    </Subjects>
+  </Day>
+  <Day>
+    <DayName>Thursday</DayName>
+    <Subjects>
+      <Subject>
+        <Name>Операционные системы</Name>
+        <LectureHall>216</LectureHall>
+        <Teacher>Лядова Л.Н.</Teacher>
+        <Type>Lecture</Type>
+        <StartTime>11:30:00</StartTime>
+        <EndTime>12:50:00</EndTime>
+      </Subject>
+      <Subject>
+        <Name>Стат.и эмп. методы компьютинга</Name>
+        <LectureHall>216</LectureHall>
+        <Teacher>Радионова М.В.</Teacher>
+        <Type>Lecture</Type>
+        <StartTime>13:00:00</StartTime>
+        <EndTime>14:20:00</EndTime>
+      </Subject>
+    </Subjects>
+  </Day>
+  <Day>
+    <DayName>Friday</DayName>
+    <Subjects>
+      <Subject>
+        <Name>Науч.- исслед. семинар</Name>
+        <LectureHall>102</LectureHall>
+        <Teacher>Носкова Е.Н.</Teacher>
+        <Type>Seminar</Type>
+        <StartTime>09:40:00</StartTime>
+        <EndTime>11:00:00</EndTime>
+      </Subject>
+      <Subject>
+        <Name>Базы данных</Name>
+        <LectureHall>102</LectureHall>
+        <Teacher>Хренов В.В.</Teacher>
+        <Type>Lecture</Type>
+        <StartTime>11:30:00</StartTime>
+        <EndTime>12:50:00</EndTime>
+      </Subject>
+    </Subjects>
+  </Day>
+</Schedule>

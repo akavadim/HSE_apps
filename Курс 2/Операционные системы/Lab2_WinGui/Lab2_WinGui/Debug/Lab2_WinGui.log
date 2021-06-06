@@ -1,0 +1,3 @@
+﻿  Program.cpp
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab2_WinGui\Lab2_WinGui\Program.cpp(178): warning C4715: WinMain: значение возвращается не при всех путях выполнения
+  Lab2_WinGui.vcxproj -> C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Lab2_WinGui\Debug\Lab2_WinGui.exe

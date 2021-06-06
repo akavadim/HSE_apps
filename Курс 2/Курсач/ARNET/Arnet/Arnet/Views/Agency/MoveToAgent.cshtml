@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Arnet.Database.Account>
+@{
+    ViewData["Title"] = "Перемещение апартаментов";
+}
+
+<form method="post">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Агент</th>
+                <th>Действия</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var account in Model)
+            {
+                <tr>
+                    <td>
+                        <a href="@Url.Action("Profile", "Account", new { id=account.AccountId})">@account.SecondName @account.FirstName @account.MiddleName</a>
+                    </td>
+                    <td>
+                        <a href="@Url.Action("MoveToAgent", "Agency", new { id = account.AccountId})">Передать объявления</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>
+
+

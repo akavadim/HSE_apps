@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Lab3_ThreadWar/1.0.0": {
+        "runtime": {
+          "Lab3_ThreadWar.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab3_ThreadWar/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

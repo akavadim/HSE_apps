@@ -1,0 +1,14 @@
+C:\Users\vadim\source\repos\Task1_1_Stack\Task1_1_Stack\bin\Debug\Task1_1_Stack.exe.config
+C:\Users\vadim\source\repos\Task1_1_Stack\Task1_1_Stack\bin\Debug\Task1_1_Stack.exe
+C:\Users\vadim\source\repos\Task1_1_Stack\Task1_1_Stack\bin\Debug\Task1_1_Stack.pdb
+C:\Users\vadim\source\repos\Task1_1_Stack\Task1_1_Stack\obj\Debug\Task1_1_Stack.csprojAssemblyReference.cache
+C:\Users\vadim\source\repos\Task1_1_Stack\Task1_1_Stack\obj\Debug\Task1_1_Stack.csproj.CoreCompileInputs.cache
+C:\Users\vadim\source\repos\Task1_1_Stack\Task1_1_Stack\obj\Debug\Task1_1_Stack.exe
+C:\Users\vadim\source\repos\Task1_1_Stack\Task1_1_Stack\obj\Debug\Task1_1_Stack.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task1_1_Stack\Task1_1_Stack\bin\Debug\Task1_1_Stack.exe.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task1_1_Stack\Task1_1_Stack\bin\Debug\Task1_1_Stack.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task1_1_Stack\Task1_1_Stack\bin\Debug\Task1_1_Stack.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task1_1_Stack\Task1_1_Stack\obj\Debug\Task1_1_Stack.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task1_1_Stack\Task1_1_Stack\obj\Debug\Task1_1_Stack.csproj.CoreCompileInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task1_1_Stack\Task1_1_Stack\obj\Debug\Task1_1_Stack.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task1_1_Stack\Task1_1_Stack\obj\Debug\Task1_1_Stack.pdb

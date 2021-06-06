@@ -1,0 +1,11 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task26\Task26_Model\bin\Debug\netcoreapp3.1\Task26_Model.deps.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task26\Task26_Model\bin\Debug\netcoreapp3.1\Task26_Model.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task26\Task26_Model\bin\Debug\netcoreapp3.1\Task26_Model.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task26\Task26_Model\obj\Debug\netcoreapp3.1\Task26_Model.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task26\Task26_Model\obj\Debug\netcoreapp3.1\Task26_Model.AssemblyInfoInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task26\Task26_Model\obj\Debug\netcoreapp3.1\Task26_Model.AssemblyInfo.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task26\Task26_Model\obj\Debug\netcoreapp3.1\Task26_Model.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task26\Task26_Model\obj\Debug\netcoreapp3.1\Task26_Model.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task26\Task26_Model\bin\Debug\netcoreapp3.1\XmlTask.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task26\Task26_Model\bin\Debug\netcoreapp3.1\XmlTask.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task26\Task26_Model\obj\Debug\netcoreapp3.1\Task26_Model.csproj.CopyComplete

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="LiteArnetModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="LiteArnetModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Users" EntityType="LiteArnetModel.User" />
+    <EntitySet Name="Bans" EntityType="LiteArnetModel.Ban" />
+    <AssociationSet Name="UserBan" Association="LiteArnetModel.UserBan">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Ban" EntitySet="Bans" />
+    </AssociationSet>
+    <EntitySet Name="Emails" EntityType="LiteArnetModel.Email" />
+    <AssociationSet Name="UserEmail" Association="LiteArnetModel.UserEmail">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Email" EntitySet="Emails" />
+    </AssociationSet>
+    <EntitySet Name="Passwords" EntityType="LiteArnetModel.Password" />
+    <AssociationSet Name="UserPassword" Association="LiteArnetModel.UserPassword">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Password" EntitySet="Passwords" />
+    </AssociationSet>
+    <EntitySet Name="Phones" EntityType="LiteArnetModel.Phone" />
+    <AssociationSet Name="UserPhone" Association="LiteArnetModel.UserPhone">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Phone" EntitySet="Phones" />
+    </AssociationSet>
+    <EntitySet Name="Agencies" EntityType="LiteArnetModel.Agency" />
+    <AssociationSet Name="UserAgency" Association="LiteArnetModel.UserAgency">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Agency" EntitySet="Agencies" />
+    </AssociationSet>
+    <EntitySet Name="Agents" EntityType="LiteArnetModel.Agent" />
+    <AssociationSet Name="UserAgent" Association="LiteArnetModel.UserAgent">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Agent" EntitySet="Agents" />
+    </AssociationSet>
+    <AssociationSet Name="AgencyAgent" Association="LiteArnetModel.AgencyAgent">
+      <End Role="Agency" EntitySet="Agencies" />
+      <End Role="Agent" EntitySet="Agents" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="25" />
+    <Property Name="SecondName" Type="String" Nullable="true" MaxLength="25" />
+    <Property Name="MiddleName" Type="String" Nullable="true" MaxLength="25" />
+    <Property Name="Type" Type="LiteArnetModel.UserTypes" Nullable="false" />
+    <Property Name="DateFrom" Type="DateTime" Nullable="false" />
+    <Property Name="DateTo" Type="DateTime" Nullable="true" />
+    <NavigationProperty Name="Bans" Relationship="LiteArnetModel.UserBan" FromRole="User" ToRole="Ban" />
+    <NavigationProperty Name="Emails" Relationship="LiteArnetModel.UserEmail" FromRole="User" ToRole="Email" />
+    <NavigationProperty Name="Passwords" Relationship="LiteArnetModel.UserPassword" FromRole="User" ToRole="Password" />
+    <NavigationProperty Name="Phones" Relationship="LiteArnetModel.UserPhone" FromRole="User" ToRole="Phone" />
+    <NavigationProperty Name="MyAgencies" Relationship="LiteArnetModel.UserAgency" FromRole="User" ToRole="Agency" />
+    <NavigationProperty Name="Agents" Relationship="LiteArnetModel.UserAgent" FromRole="User" ToRole="Agent" />
+  </EntityType>
+  <EnumType Name="UserTypes" UnderlyingType="Byte">
+    <Member Name="User" />
+    <Member Name="Agent" />
+    <Member Name="Agency" />
+    <Member Name="Admin" />
+    <Member Name="Moderator" />
+  </EnumType>
+  <EntityType Name="Ban">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="LiteArnetModel.UserBan" FromRole="Ban" ToRole="User" />
+    <Property Name="Comment" Type="String" Nullable="true" MaxLength="200" />
+    <Property Name="DateFrom" Type="DateTime" Nullable="false" />
+    <Property Name="DateTo" Type="DateTime" Nullable="true" />
+  </EntityType>
+  <Association Name="UserBan">
+    <End Type="LiteArnetModel.User" Role="User" Multiplicity="1" />
+    <End Type="LiteArnetModel.Ban" Role="Ban" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Email">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="Value" Type="String" Nullable="true" MaxLength="30" />
+    <Property Name="DateFrom" Type="DateTime" Nullable="false" />
+    <Property Name="DateTo" Type="DateTime" Nullable="true" />
+    <NavigationProperty Name="User" Relationship="LiteArnetModel.UserEmail" FromRole="Email" ToRole="User" />
+  </EntityType>
+  <Association Name="UserEmail">
+    <End Type="LiteArnetModel.User" Role="User" Multiplicity="1" />
+    <End Type="LiteArnetModel.Email" Role="Email" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Password">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="Value" Type="String" Nullable="true" MaxLength="50" />
+    <Property Name="DateFrom" Type="DateTime" Nullable="false" />
+    <Property Name="DateTo" Type="DateTime" Nullable="true" />
+    <NavigationProperty Name="User" Relationship="LiteArnetModel.UserPassword" FromRole="Password" ToRole="User" />
+  </EntityType>
+  <Association Name="UserPassword">
+    <End Type="LiteArnetModel.User" Role="User" Multiplicity="1" />
+    <End Type="LiteArnetModel.Password" Role="Password" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Phone">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="Number" Type="String" Nullable="true" MaxLength="20" />
+    <Property Name="DateFrom" Type="DateTime" Nullable="false" />
+    <Property Name="DateTo" Type="DateTime" Nullable="true" />
+    <NavigationProperty Name="User" Relationship="LiteArnetModel.UserPhone" FromRole="Phone" ToRole="User" />
+  </EntityType>
+  <Association Name="UserPhone">
+    <End Type="LiteArnetModel.User" Role="User" Multiplicity="1" />
+    <End Type="LiteArnetModel.Phone" Role="Phone" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Agency">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OwnerId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Owner" Relationship="LiteArnetModel.UserAgency" FromRole="Agency" ToRole="User" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" />
+    <Property Name="DateTo" Type="DateTime" Nullable="true" />
+    <Property Name="DateFrom" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="Agents" Relationship="LiteArnetModel.AgencyAgent" FromRole="Agency" ToRole="Agent" />
+  </EntityType>
+  <Association Name="UserAgency">
+    <End Type="LiteArnetModel.User" Role="User" Multiplicity="1" />
+    <End Type="LiteArnetModel.Agency" Role="Agency" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Agent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AgencyId" Type="Int32" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="DateTo" Type="DateTime" Nullable="true" />
+    <Property Name="DateFrom" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="LiteArnetModel.UserAgent" FromRole="Agent" ToRole="User" />
+    <NavigationProperty Name="Agency" Relationship="LiteArnetModel.AgencyAgent" FromRole="Agent" ToRole="Agency" />
+  </EntityType>
+  <Association Name="UserAgent">
+    <End Type="LiteArnetModel.User" Role="User" Multiplicity="1" />
+    <End Type="LiteArnetModel.Agent" Role="Agent" Multiplicity="*" />
+  </Association>
+  <Association Name="AgencyAgent">
+    <End Type="LiteArnetModel.Agency" Role="Agency" Multiplicity="1" />
+    <End Type="LiteArnetModel.Agent" Role="Agent" Multiplicity="*" />
+  </Association>
+</Schema>

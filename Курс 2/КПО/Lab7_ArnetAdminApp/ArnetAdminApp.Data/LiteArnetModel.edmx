@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="LiteArnetModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="LiteArnetModelStoreContainer">
+    <EntitySet Name="Users" EntityType="LiteArnetModel.Store.Users" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Bans" EntityType="LiteArnetModel.Store.Bans" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Emails" EntityType="LiteArnetModel.Store.Emails" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Passwords" EntityType="LiteArnetModel.Store.Passwords" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Phones" EntityType="LiteArnetModel.Store.Phones" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Agencies" EntityType="LiteArnetModel.Store.Agencies" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Agents" EntityType="LiteArnetModel.Store.Agents" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="UserBan" Association="LiteArnetModel.Store.UserBan">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Ban" EntitySet="Bans" />
+    </AssociationSet>
+    <AssociationSet Name="UserEmail" Association="LiteArnetModel.Store.UserEmail">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Email" EntitySet="Emails" />
+    </AssociationSet>
+    <AssociationSet Name="UserPassword" Association="LiteArnetModel.Store.UserPassword">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Password" EntitySet="Passwords" />
+    </AssociationSet>
+    <AssociationSet Name="UserPhone" Association="LiteArnetModel.Store.UserPhone">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Phone" EntitySet="Phones" />
+    </AssociationSet>
+    <AssociationSet Name="UserAgency" Association="LiteArnetModel.Store.UserAgency">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Agency" EntitySet="Agencies" />
+    </AssociationSet>
+    <AssociationSet Name="UserAgent" Association="LiteArnetModel.Store.UserAgent">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Agent" EntitySet="Agents" />
+    </AssociationSet>
+    <AssociationSet Name="AgencyAgent" Association="LiteArnetModel.Store.AgencyAgent">
+      <End Role="Agency" EntitySet="Agencies" />
+      <End Role="Agent" EntitySet="Agents" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="25" />
+    <Property Name="SecondName" Type="nvarchar" Nullable="true" MaxLength="25" />
+    <Property Name="MiddleName" Type="nvarchar" Nullable="true" MaxLength="25" />
+    <Property Name="Type" Type="tinyint" Nullable="false" />
+    <Property Name="DateFrom" Type="datetime" Nullable="false" />
+    <Property Name="DateTo" Type="datetime" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Bans">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Comment" Type="nvarchar" Nullable="true" MaxLength="200" />
+    <Property Name="DateFrom" Type="datetime" Nullable="false" />
+    <Property Name="DateTo" Type="datetime" Nullable="true" />
+    <Property Name="User_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Emails">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Value" Type="nvarchar" Nullable="true" MaxLength="30" />
+    <Property Name="DateFrom" Type="datetime" Nullable="false" />
+    <Property Name="DateTo" Type="datetime" Nullable="true" />
+    <Property Name="User_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Passwords">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Value" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="DateFrom" Type="datetime" Nullable="false" />
+    <Property Name="DateTo" Type="datetime" Nullable="true" />
+    <Property Name="User_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Phones">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Number" Type="nvarchar" Nullable="true" MaxLength="20" />
+    <Property Name="DateFrom" Type="datetime" Nullable="false" />
+    <Property Name="DateTo" Type="datetime" Nullable="true" />
+    <Property Name="User_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Agencies">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OwnerId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DateTo" Type="datetime" Nullable="true" />
+    <Property Name="DateFrom" Type="datetime" Nullable="false" />
+    <Property Name="Owner_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Agents">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AgencyId" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="DateTo" Type="datetime" Nullable="true" />
+    <Property Name="DateFrom" Type="datetime" Nullable="false" />
+    <Property Name="User_Id" Type="int" Nullable="false" />
+    <Property Name="Agency_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="UserBan">
+    <End Role="User" Type="LiteArnetModel.Store.Users" Multiplicity="1" />
+    <End Role="Ban" Type="LiteArnetModel.Store.Bans" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Ban">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UserEmail">
+    <End Role="User" Type="LiteArnetModel.Store.Users" Multiplicity="1" />
+    <End Role="Email" Type="LiteArnetModel.Store.Emails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Email">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UserPassword">
+    <End Role="User" Type="LiteArnetModel.Store.Users" Multiplicity="1" />
+    <End Role="Password" Type="LiteArnetModel.Store.Passwords" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Password">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UserPhone">
+    <End Role="User" Type="LiteArnetModel.Store.Users" Multiplicity="1" />
+    <End Role="Phone" Type="LiteArnetModel.Store.Phones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Phone">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UserAgency">
+    <End Role="User" Type="LiteArnetModel.Store.Users" Multiplicity="1" />
+    <End Role="Agency" Type="LiteArnetModel.Store.Agencies" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Agency">
+        <PropertyRef Name="Owner_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UserAgent">
+    <End Role="User" Type="LiteArnetModel.Store.Users" Multiplicity="1" />
+    <End Role="Agent" Type="LiteArnetModel.Store.Agents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Agent">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AgencyAgent">
+    <End Role="Agency" Type="LiteArnetModel.Store.Agencies" Multiplicity="1" />
+    <End Role="Agent" Type="LiteArnetModel.Store.Agents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agency">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Agent">
+        <PropertyRef Name="Agency_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="LiteArnetModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="LiteArnetModelContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Users" EntityType="LiteArnetModel.User" />
+          <EntitySet Name="Bans" EntityType="LiteArnetModel.Ban" />
+          <AssociationSet Name="UserBan" Association="LiteArnetModel.UserBan">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Ban" EntitySet="Bans" />
+          </AssociationSet>
+          <EntitySet Name="Emails" EntityType="LiteArnetModel.Email" />
+          <AssociationSet Name="UserEmail" Association="LiteArnetModel.UserEmail">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Email" EntitySet="Emails" />
+          </AssociationSet>
+          <EntitySet Name="Passwords" EntityType="LiteArnetModel.Password" />
+          <AssociationSet Name="UserPassword" Association="LiteArnetModel.UserPassword">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Password" EntitySet="Passwords" />
+          </AssociationSet>
+          <EntitySet Name="Phones" EntityType="LiteArnetModel.Phone" />
+          <AssociationSet Name="UserPhone" Association="LiteArnetModel.UserPhone">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Phone" EntitySet="Phones" />
+          </AssociationSet>
+          <EntitySet Name="Agencies" EntityType="LiteArnetModel.Agency" />
+          <AssociationSet Name="UserAgency" Association="LiteArnetModel.UserAgency">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Agency" EntitySet="Agencies" />
+          </AssociationSet>
+          <EntitySet Name="Agents" EntityType="LiteArnetModel.Agent" />
+          <AssociationSet Name="UserAgent" Association="LiteArnetModel.UserAgent">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Agent" EntitySet="Agents" />
+          </AssociationSet>
+          <AssociationSet Name="AgencyAgent" Association="LiteArnetModel.AgencyAgent">
+            <End Role="Agency" EntitySet="Agencies" />
+            <End Role="Agent" EntitySet="Agents" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" Nullable="false" MaxLength="25" />
+          <Property Name="SecondName" Type="String" Nullable="true" MaxLength="25" />
+          <Property Name="MiddleName" Type="String" Nullable="true" MaxLength="25" />
+          <Property Name="Type" Type="LiteArnetModel.UserTypes" Nullable="false" />
+          <Property Name="DateFrom" Type="DateTime" Nullable="false" />
+          <Property Name="DateTo" Type="DateTime" Nullable="true" />
+          <NavigationProperty Name="Bans" Relationship="LiteArnetModel.UserBan" FromRole="User" ToRole="Ban" />
+          <NavigationProperty Name="Emails" Relationship="LiteArnetModel.UserEmail" FromRole="User" ToRole="Email" />
+          <NavigationProperty Name="Passwords" Relationship="LiteArnetModel.UserPassword" FromRole="User" ToRole="Password" />
+          <NavigationProperty Name="Phones" Relationship="LiteArnetModel.UserPhone" FromRole="User" ToRole="Phone" />
+          <NavigationProperty Name="MyAgencies" Relationship="LiteArnetModel.UserAgency" FromRole="User" ToRole="Agency" />
+          <NavigationProperty Name="Agents" Relationship="LiteArnetModel.UserAgent" FromRole="User" ToRole="Agent" />
+        </EntityType>
+        <EnumType Name="UserTypes" UnderlyingType="Byte">
+          <Member Name="User" />
+          <Member Name="Agent" />
+          <Member Name="Agency" />
+          <Member Name="Admin" />
+          <Member Name="Moderator" />
+        </EnumType>
+        <EntityType Name="Ban">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="User" Relationship="LiteArnetModel.UserBan" FromRole="Ban" ToRole="User" />
+          <Property Name="Comment" Type="String" Nullable="true" MaxLength="200" />
+          <Property Name="DateFrom" Type="DateTime" Nullable="false" />
+          <Property Name="DateTo" Type="DateTime" Nullable="true" />
+        </EntityType>
+        <Association Name="UserBan">
+          <End Type="LiteArnetModel.User" Role="User" Multiplicity="1" />
+          <End Type="LiteArnetModel.Ban" Role="Ban" Multiplicity="*" />
+        </Association>
+        <EntityType Name="Email">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="Value" Type="String" Nullable="true" MaxLength="30" />
+          <Property Name="DateFrom" Type="DateTime" Nullable="false" />
+          <Property Name="DateTo" Type="DateTime" Nullable="true" />
+          <NavigationProperty Name="User" Relationship="LiteArnetModel.UserEmail" FromRole="Email" ToRole="User" />
+        </EntityType>
+        <Association Name="UserEmail">
+          <End Type="LiteArnetModel.User" Role="User" Multiplicity="1" />
+          <End Type="LiteArnetModel.Email" Role="Email" Multiplicity="*" />
+        </Association>
+        <EntityType Name="Password">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="Value" Type="String" Nullable="true" MaxLength="50" />
+          <Property Name="DateFrom" Type="DateTime" Nullable="false" />
+          <Property Name="DateTo" Type="DateTime" Nullable="true" />
+          <NavigationProperty Name="User" Relationship="LiteArnetModel.UserPassword" FromRole="Password" ToRole="User" />
+        </EntityType>
+        <Association Name="UserPassword">
+          <End Type="LiteArnetModel.User" Role="User" Multiplicity="1" />
+          <End Type="LiteArnetModel.Password" Role="Password" Multiplicity="*" />
+        </Association>
+        <EntityType Name="Phone">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="Number" Type="String" Nullable="true" MaxLength="20" />
+          <Property Name="DateFrom" Type="DateTime" Nullable="false" />
+          <Property Name="DateTo" Type="DateTime" Nullable="true" />
+          <NavigationProperty Name="User" Relationship="LiteArnetModel.UserPhone" FromRole="Phone" ToRole="User" />
+        </EntityType>
+        <Association Name="UserPhone">
+          <End Type="LiteArnetModel.User" Role="User" Multiplicity="1" />
+          <End Type="LiteArnetModel.Phone" Role="Phone" Multiplicity="*" />
+        </Association>
+        <EntityType Name="Agency">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="OwnerId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Owner" Relationship="LiteArnetModel.UserAgency" FromRole="Agency" ToRole="User" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" />
+          <Property Name="DateTo" Type="DateTime" Nullable="true" />
+          <Property Name="DateFrom" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="Agents" Relationship="LiteArnetModel.AgencyAgent" FromRole="Agency" ToRole="Agent" />
+        </EntityType>
+        <Association Name="UserAgency">
+          <End Type="LiteArnetModel.User" Role="User" Multiplicity="1" />
+          <End Type="LiteArnetModel.Agency" Role="Agency" Multiplicity="*" />
+        </Association>
+        <EntityType Name="Agent">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AgencyId" Type="Int32" Nullable="false" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="DateTo" Type="DateTime" Nullable="true" />
+          <Property Name="DateFrom" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="User" Relationship="LiteArnetModel.UserAgent" FromRole="Agent" ToRole="User" />
+          <NavigationProperty Name="Agency" Relationship="LiteArnetModel.AgencyAgent" FromRole="Agent" ToRole="Agency" />
+        </EntityType>
+        <Association Name="UserAgent">
+          <End Type="LiteArnetModel.User" Role="User" Multiplicity="1" />
+          <End Type="LiteArnetModel.Agent" Role="Agent" Multiplicity="*" />
+        </Association>
+        <Association Name="AgencyAgent">
+          <End Type="LiteArnetModel.Agency" Role="Agency" Multiplicity="1" />
+          <End Type="LiteArnetModel.Agent" Role="Agent" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LiteArnetModelStoreContainer" CdmEntityContainer="LiteArnetModelContainer">
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="IsTypeOf(LiteArnetModel.User)">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="SecondName" ColumnName="SecondName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bans">
+      <EntityTypeMapping TypeName="IsTypeOf(LiteArnetModel.Ban)">
+        <MappingFragment StoreEntitySet="Bans">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Emails">
+      <EntityTypeMapping TypeName="IsTypeOf(LiteArnetModel.Email)">
+        <MappingFragment StoreEntitySet="Emails">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Passwords">
+      <EntityTypeMapping TypeName="IsTypeOf(LiteArnetModel.Password)">
+        <MappingFragment StoreEntitySet="Passwords">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Phones">
+      <EntityTypeMapping TypeName="IsTypeOf(LiteArnetModel.Phone)">
+        <MappingFragment StoreEntitySet="Phones">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Agencies">
+      <EntityTypeMapping TypeName="IsTypeOf(LiteArnetModel.Agency)">
+        <MappingFragment StoreEntitySet="Agencies">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OwnerId" ColumnName="OwnerId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Agents">
+      <EntityTypeMapping TypeName="IsTypeOf(LiteArnetModel.Agent)">
+        <MappingFragment StoreEntitySet="Agents">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AgencyId" ColumnName="AgencyId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="UserBan" TypeName="LiteArnetModel.UserBan" StoreEntitySet="Bans">
+      <EndProperty Name="User">
+        <ScalarProperty Name="Id" ColumnName="User_Id" />
+      </EndProperty>
+      <EndProperty Name="Ban">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="UserEmail" TypeName="LiteArnetModel.UserEmail" StoreEntitySet="Emails">
+      <EndProperty Name="User">
+        <ScalarProperty Name="Id" ColumnName="User_Id" />
+      </EndProperty>
+      <EndProperty Name="Email">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="UserPassword" TypeName="LiteArnetModel.UserPassword" StoreEntitySet="Passwords">
+      <EndProperty Name="User">
+        <ScalarProperty Name="Id" ColumnName="User_Id" />
+      </EndProperty>
+      <EndProperty Name="Password">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="UserPhone" TypeName="LiteArnetModel.UserPhone" StoreEntitySet="Phones">
+      <EndProperty Name="User">
+        <ScalarProperty Name="Id" ColumnName="User_Id" />
+      </EndProperty>
+      <EndProperty Name="Phone">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="UserAgency" TypeName="LiteArnetModel.UserAgency" StoreEntitySet="Agencies">
+      <EndProperty Name="User">
+        <ScalarProperty Name="Id" ColumnName="Owner_Id" />
+      </EndProperty>
+      <EndProperty Name="Agency">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="UserAgent" TypeName="LiteArnetModel.UserAgent" StoreEntitySet="Agents">
+      <EndProperty Name="User">
+        <ScalarProperty Name="Id" ColumnName="User_Id" />
+      </EndProperty>
+      <EndProperty Name="Agent">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="AgencyAgent" TypeName="LiteArnetModel.AgencyAgent" StoreEntitySet="Agents">
+      <EndProperty Name="Agency">
+        <ScalarProperty Name="Id" ColumnName="Agency_Id" />
+      </EndProperty>
+      <EndProperty Name="Agent">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

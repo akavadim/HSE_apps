@@ -1,0 +1,7 @@
+﻿  Source.cpp
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\ThreadWarC++\ThreadWarC++\Source.cpp(37,19): warning C4838: Преобразование из "int" в "SHORT" требует сужающего преобразования.
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\ThreadWarC++\ThreadWarC++\Source.cpp(37,21): warning C4838: Преобразование из "int" в "SHORT" требует сужающего преобразования.
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\ThreadWarC++\ThreadWarC++\Source.cpp(66,19): warning C4838: Преобразование из "int" в "SHORT" требует сужающего преобразования.
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\ThreadWarC++\ThreadWarC++\Source.cpp(66,21): warning C4838: Преобразование из "int" в "SHORT" требует сужающего преобразования.
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\ThreadWarC++\ThreadWarC++\Source.cpp(102,13): warning C4101: dly: неиспользованная локальная переменная
+  ThreadWarC++.vcxproj -> C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\ThreadWarC++\Debug\ThreadWarC++.exe

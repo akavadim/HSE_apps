@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Arnet.Web.Models.Admin.UserViewModel>
+@{
+    ViewData["Title"] = "Пользователи";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>ФИО</th>
+            <th>Номер телефона</th>
+            <th>Тип аккаунта</th>
+            <th>Редактировать</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td><a href="@Url.Action("Profile", "Account", new { id=user.Account.AccountId})">@user.Account.AccountId</a></td>
+                <td>@user.Account.SecondName @user.Account.FirstName @user.Account.MiddleName</td>
+                <td>@user.Phone.Number</td>
+                <td>@user.Account.AccountType.Type.ToString()</td>
+                <td>
+                    <a href="@Url.Action("EditAccount", "Admin", new { id=user.Account.AccountId})">Профиль</a>
+                    <a href="@Url.Action("EditPublishments", "Admin", new { id=user.Account.AccountId})">Объявления</a>
+                    @if (user.Ban == null)
+                    {
+                        <a href="@Url.Action("BanAccount", "Admin", new { id = user.Account.AccountId })">Заблокировать</a>
+                    }
+                    else
+                    {
+                        <a href="@Url.Action("UnbanAccount", "Admin", new { id=user.Account.AccountId})">Разблокировать</a>
+                    }
+                    <a href="@Url.Action("RemoveAccount", "Admin", new { id=user.Account.AccountId})">Удалить</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

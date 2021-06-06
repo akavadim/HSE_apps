@@ -1,0 +1,4 @@
+﻿  Ref4.cpp
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Реферат 4\Ref4\Ref4\Ref4.cpp(89,9): warning C4101: a: неиспользованная локальная переменная
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Реферат 4\Ref4\Ref4\Ref4.cpp(91,9): warning C4101: c: неиспользованная локальная переменная
+  Ref4.vcxproj -> C:\Users\vadim\OneDrive\Рабочий стол\HSE\Операционные системы\Реферат 4\Ref4\Debug\Ref4.exe

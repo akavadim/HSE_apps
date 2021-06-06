@@ -1,0 +1,24 @@
+﻿  Assembler3.cpp
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(17,2): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(20,3): error C2065: mov: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(20,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "rax"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(20,7): error C2065: rax: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(22,2): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cycle_x_se_b"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(25,3): error C2065: fadd: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(25,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "x"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(26,3): error C2065: fld: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(26,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "b"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(27,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "fld"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(27,3): error C2065: fld: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(27,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "x"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(28,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "fcomip"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(28,3): error C2065: fcomip: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(28,10): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "st"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(28,10): error C2065: st: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(28,14): error C3861: st: идентификатор не найден
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(29,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "jbe"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(29,3): error C2065: jbe: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(29,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cycle_x_se_b"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(29,7): error C2065: cycle_x_se_b: необъявленный идентификатор
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(30,2): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "end_programm"
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Архитектура ВМ\Assembler3\Assembler3\Assembler3.cpp(32,2): error C2059: синтаксическая ошибка: }

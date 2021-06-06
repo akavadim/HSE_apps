@@ -1,0 +1,7 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\MutualRecursion\MutualRecursion\bin\Debug\MutualRecursion.exe.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\MutualRecursion\MutualRecursion\bin\Debug\MutualRecursion.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\MutualRecursion\MutualRecursion\bin\Debug\MutualRecursion.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\MutualRecursion\MutualRecursion\obj\Debug\MutualRecursion.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\MutualRecursion\MutualRecursion\obj\Debug\MutualRecursion.csproj.CoreCompileInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\MutualRecursion\MutualRecursion\obj\Debug\MutualRecursion.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\MutualRecursion\MutualRecursion\obj\Debug\MutualRecursion.pdb

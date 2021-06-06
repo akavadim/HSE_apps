@@ -1,0 +1,19 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ex4_Alarm"
+        xmlns:WpfControlLibrary="clr-namespace:WpfControlLibrary;assembly=WpfControlLibrary" x:Class="Ex4_Alarm.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <WpfControlLibrary:AnalogClock2 x:Name="ClockNow" HorizontalAlignment="Left" Height="235" Margin="10,10,0,0" VerticalAlignment="Top" Width="217"/>
+        <WpfControlLibrary:AnalogClock2 x:Name="ClockUtc" HorizontalAlignment="Left" Height="158" Margin="288,85,0,0" VerticalAlignment="Top" Width="140"/>
+        <WpfControlLibrary:AnalogClock2 x:Name="ClockMoscow" HorizontalAlignment="Left" Height="235" Margin="490,10,0,0" VerticalAlignment="Top" Width="217"/>
+        <Label Content="Now" HorizontalAlignment="Left" Margin="110,250,0,0" VerticalAlignment="Top"/>
+        <Label Content="UTC" HorizontalAlignment="Left" Margin="352,250,0,0" VerticalAlignment="Top"/>
+        <Label Content="Moscow" HorizontalAlignment="Left" Margin="592,250,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,7 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task1_2_Queue\Task1_2_Queue\bin\Debug\Task1_2_Queue.exe.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task1_2_Queue\Task1_2_Queue\bin\Debug\Task1_2_Queue.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task1_2_Queue\Task1_2_Queue\bin\Debug\Task1_2_Queue.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task1_2_Queue\Task1_2_Queue\obj\Debug\Task1_2_Queue.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task1_2_Queue\Task1_2_Queue\obj\Debug\Task1_2_Queue.csproj.CoreCompileInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task1_2_Queue\Task1_2_Queue\obj\Debug\Task1_2_Queue.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\CourseApps\Task1_2_Queue\Task1_2_Queue\obj\Debug\Task1_2_Queue.pdb

@@ -1,0 +1,14 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task86\Task86_View\bin\Debug\netcoreapp3.1\Task86_View.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task86\Task86_View\bin\Debug\netcoreapp3.1\Task86_View.deps.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task86\Task86_View\bin\Debug\netcoreapp3.1\Task86_View.runtimeconfig.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task86\Task86_View\bin\Debug\netcoreapp3.1\Task86_View.runtimeconfig.dev.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task86\Task86_View\bin\Debug\netcoreapp3.1\Task86_View.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task86\Task86_View\bin\Debug\netcoreapp3.1\Task86_View.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task86\Task86_View\bin\Debug\netcoreapp3.1\Task86_Model.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task86\Task86_View\bin\Debug\netcoreapp3.1\Task86_Model.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task86\Task86_View\obj\Debug\netcoreapp3.1\Task86_View.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task86\Task86_View\obj\Debug\netcoreapp3.1\Task86_View.AssemblyInfoInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task86\Task86_View\obj\Debug\netcoreapp3.1\Task86_View.AssemblyInfo.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task86\Task86_View\obj\Debug\netcoreapp3.1\Task86_View.csproj.CopyComplete
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task86\Task86_View\obj\Debug\netcoreapp3.1\Task86_View.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task86\Task86_View\obj\Debug\netcoreapp3.1\Task86_View.pdb

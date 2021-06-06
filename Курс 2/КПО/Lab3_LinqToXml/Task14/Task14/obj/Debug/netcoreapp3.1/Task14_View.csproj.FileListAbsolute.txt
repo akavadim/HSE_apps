@@ -1,0 +1,14 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task14\Task14\bin\Debug\netcoreapp3.1\Task14_View.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task14\Task14\bin\Debug\netcoreapp3.1\Task14_View.deps.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task14\Task14\bin\Debug\netcoreapp3.1\Task14_View.runtimeconfig.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task14\Task14\bin\Debug\netcoreapp3.1\Task14_View.runtimeconfig.dev.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task14\Task14\bin\Debug\netcoreapp3.1\Task14_View.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task14\Task14\bin\Debug\netcoreapp3.1\Task14_View.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task14\Task14\bin\Debug\netcoreapp3.1\Task14_Model.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task14\Task14\bin\Debug\netcoreapp3.1\Task14_Model.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task14\Task14\obj\Debug\netcoreapp3.1\Task14_View.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task14\Task14\obj\Debug\netcoreapp3.1\Task14_View.AssemblyInfoInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task14\Task14\obj\Debug\netcoreapp3.1\Task14_View.AssemblyInfo.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task14\Task14\obj\Debug\netcoreapp3.1\Task14_View.csproj.CopyComplete
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task14\Task14\obj\Debug\netcoreapp3.1\Task14_View.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab3_LinqToXml\Task14\Task14\obj\Debug\netcoreapp3.1\Task14_View.pdb

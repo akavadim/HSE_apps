@@ -1,0 +1,24 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Styles{ @RenderSection("Styles", false)}
+<div class="row">
+    <div class="col-md-3">
+        <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+                <a class="nav-link @Html.IsActive("Moderators", "Admin")" asp-area="" asp-controller="Admin" asp-action="Moderators">Модераторы</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link @Html.IsActive("Users", "Admin")" asp-area="" asp-controller="Admin" asp-action="Users">Пользователи</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link @Html.IsActive("Constructor", "Admin")" asp-area="" asp-controller="Admin" asp-action="Constructor">Конструктор</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-9">
+        @RenderBody()
+    </div>
+</div>
+
+@section Scripts{ @RenderSection("Scripts", false)}

@@ -1,0 +1,30 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Graphics Editor\Graphics Editor\bin\Debug\Graphics Editor.exe.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Graphics Editor\Graphics Editor\bin\Debug\Graphics Editor.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Graphics Editor\Graphics Editor\bin\Debug\Graphics Editor.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Graphics Editor\Graphics Editor\obj\Debug\Graphics_Editor.Properties.Resources.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Graphics Editor\Graphics Editor\obj\Debug\Graphics Editor.csproj.GenerateResource.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Graphics Editor\Graphics Editor\obj\Debug\Graphics Editor.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Graphics Editor\Graphics Editor\obj\Debug\Graphics Editor.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Graphics Editor\Graphics Editor\obj\Debug\Graphics_Editor.About.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Graphics Editor\Graphics Editor\obj\Debug\Graphics_Editor.Canvas.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Graphics Editor\Graphics Editor\obj\Debug\Graphics_Editor.MainForm.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Graphics Editor\Graphics Editor\obj\Debug\Graphics_Editor.CanvasSize.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Graphics Editor\Graphics Editor\obj\Debug\Graphics_Editor.SaveForm.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Graphics Editor\Graphics Editor\obj\Debug\Graphics_Editor.ExitSaveForm.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\Graphics Editor\bin\Debug\Graphics Editor.exe.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\Graphics Editor\bin\Debug\Graphics Editor.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\Graphics Editor\bin\Debug\Graphics Editor.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\Graphics Editor\obj\Debug\Graphics Editor.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\Graphics Editor\obj\Debug\Graphics_Editor.About.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\Graphics Editor\obj\Debug\Graphics_Editor.Canvas.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\Graphics Editor\obj\Debug\Graphics_Editor.CanvasSize.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\Graphics Editor\obj\Debug\Graphics_Editor.ExitSaveForm.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\Graphics Editor\obj\Debug\Graphics_Editor.SaveForm.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\Graphics Editor\obj\Debug\Graphics_Editor.MainForm.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\Graphics Editor\obj\Debug\Graphics_Editor.Properties.Resources.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\Graphics Editor\obj\Debug\Graphics Editor.csproj.GenerateResource.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\Graphics Editor\obj\Debug\Graphics Editor.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\Graphics Editor\obj\Debug\Graphics Editor.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\Graphics Editor\bin\Debug\PluginInterface.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\Graphics Editor\bin\Debug\PluginInterface.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab2_Graphics Editor\Graphics Editor\obj\Debug\Graphics Editor.csproj.CopyComplete

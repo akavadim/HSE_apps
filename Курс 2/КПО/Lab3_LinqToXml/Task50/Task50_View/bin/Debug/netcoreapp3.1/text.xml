@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<описания-книг sss="123" ssds="121">
+  <!-- Использованы теги FB2 (Fiction Book 2.0) -->
+  <title-info sss="123" ssds="12131">
+    <genre match="90" dsd="12123" dfd="1212">sf_fantasy</genre>
+    <author sdsd="12123r" dfdf="1212">
+      <first-name>Джон</first-name>
+      <middle-name>Рональд Руэл</middle-name>
+      <last-name>Толкин</last-name>
+    </author>
+    <book-title>Возвращение Короля</book-title>
+    <lang>ru</lang>
+    <src-lang>en</src-lang>
+    <translator>
+      <first-name>Мария</first-name>
+      <last-name>Каменкович</last-name>
+    </translator>
+    <translator sfdsdf="122">
+      <first-name>Валерий</first-name>
+      <last-name>Каррик</last-name>
+    </translator>
+    <sequence name="Властелин Колец" />
+  </title-info>
+  <title-info>
+    <genre>sf</genre>
+    <author sas="123">
+      <first-name>Аркадий</first-name>
+      <last-name>Стругацкий</last-name>
+    </author>
+    <author sas="123" ddsd="122213">
+      <first-name>Борис</first-name>
+      <last-name>Стругацкий</last-name>
+    </author>
+    <book-title>Улитка на склоне</book-title>
+    <lang>ru</lang>
+  </title-info>
+</описания-книг>

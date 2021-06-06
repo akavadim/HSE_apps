@@ -1,0 +1,31 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\bin\Debug\netcoreapp3.1\WpfControlLibrary.deps.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\bin\Debug\netcoreapp3.1\WpfControlLibrary.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\bin\Debug\netcoreapp3.1\WpfControlLibrary.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\AnalogClock.g.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\WpfControlLibrary_MarkupCompile.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\WpfControlLibrary_MarkupCompile.lref
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\AnalogClock.baml
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\WpfControlLibrary.g.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\WpfControlLibrary.AssemblyInfoInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\WpfControlLibrary.AssemblyInfo.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\WpfControlLibrary.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\WpfControlLibrary.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\AnalogClock2.g.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\AnalogClock2.baml
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\WpfControlLibrary.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\bin\Debug\netcoreapp3.1\WpfControlLibrary.deps.json
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\bin\Debug\netcoreapp3.1\WpfControlLibrary.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\bin\Debug\netcoreapp3.1\WpfControlLibrary.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\WpfControlLibrary.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\AnalogClock.g.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\AnalogClock2.g.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\WpfControlLibrary_MarkupCompile.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\WpfControlLibrary_MarkupCompile.lref
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\AnalogClock.baml
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\AnalogClock2.baml
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\WpfControlLibrary.g.resources
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\WpfControlLibrary.AssemblyInfoInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\WpfControlLibrary.AssemblyInfo.cs
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\WpfControlLibrary.csproj.CoreCompileInputs.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\WpfControlLibrary.dll
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Курс 2\КПО\Lab6_WindowsControllers\WpfControlLibrary\WpfControlLibrary\obj\Debug\netcoreapp3.1\WpfControlLibrary.pdb

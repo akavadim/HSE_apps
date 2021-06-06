@@ -1,0 +1,6 @@
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\TaskType4\TaskType4\obj\Debug\TaskType4.csprojAssemblyReference.cache
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\TaskType4\TaskType4\bin\Debug\TaskType4.exe.config
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\TaskType4\TaskType4\bin\Debug\TaskType4.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\TaskType4\TaskType4\bin\Debug\TaskType4.pdb
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\TaskType4\TaskType4\obj\Debug\TaskType4.exe
+C:\Users\vadim\OneDrive\Рабочий стол\HSE\Алгоритмы\TaskType4\TaskType4\obj\Debug\TaskType4.pdb

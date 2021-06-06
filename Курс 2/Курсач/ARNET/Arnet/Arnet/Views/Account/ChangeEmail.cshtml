@@ -1,0 +1,22 @@
+﻿@model Arnet.Web.Models.Account.ChangeEmailViewModel
+@{
+    Layout = "_ManageLayout.cshtml";
+    ViewData["Title"] = "Email";
+}
+
+    <form method="post">
+        @Html.ValidationSummary()
+        @if (Model.Email != null)
+        {
+        <div class="form-group">
+            <label>Email</label>
+            <input class="form-control" readonly asp-for="Email.Value" />
+        </div>
+        }
+        <div class="form-group">
+            <label>Новый email</label>
+            <input class="form-control" asp-for="NewEmail" />
+        </div>
+        <input class="btn btn-primary" type="submit" value="Сохранить" />
+    </form>
+

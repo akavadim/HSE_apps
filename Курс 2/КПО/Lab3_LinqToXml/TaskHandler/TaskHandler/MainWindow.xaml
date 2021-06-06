@@ -1,0 +1,49 @@
+﻿<Window x:Class="TaskHandler.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskHandler"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Content="Описание" Grid.Row="2" Padding="5,5,5,0"/>
+            <TextBox x:Name="DescriptionTextBox" Grid.Row="3" Margin="5,0,5,0" TextWrapping="Wrap" IsReadOnly="True"/>
+            <ComboBox x:Name="TasksComboBox" Margin="5,5,5,5" SelectionChanged="TasksComboBox_SelectionChanged"/>
+            <Button x:Name="StartTaskBtn" Content="Запустить" Grid.Row="1" HorizontalAlignment="Right" Margin="5,0,5,0" Padding="5,2,5,2" Click="StartTaskBtn_Click"/>
+            <Label Content="Консоль" Grid.Row="4" Padding="5,5,5,0"/>
+            <TextBox x:Name="ConsoleTextBox" Grid.Row="5" Margin="5,0,5,5" TextWrapping="Wrap" IsReadOnly="True"/>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Label Content="XML Документ" Padding="5,5,5,0"/>
+            <TextBox x:Name="XmlDocumentTextBox" Grid.Row="1" Margin="0,0,5,5" IsReadOnly="True"/>
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="OpenFileBtn" Content="Загрузить..." Grid.Column="1" Margin="5,0,5,5" Padding="5,1,5,1" Click="OpenFileBtn_Click"/>
+                <Button x:Name="SaveFileBtn" Content="Сохранить..." Grid.Column="2" Margin="0,0,5,5" Padding="5,1,5,1" Click="SaveFileBtn_Click"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

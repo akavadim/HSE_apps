@@ -1,0 +1,126 @@
+﻿@model IEnumerable<Arnet.Web.Models.Agency.AgentsViewModel>
+@{
+    ViewData["Title"] = "Агенты";
+    bool isOwner = bool.Parse(ViewData["isOwner"].ToString());
+}
+
+@section Styles{
+    <style>
+        .table td {
+            vertical-align: middle;
+        }
+
+        .dropdown-item-danger {
+            color: red
+        }
+
+            .dropdown-item-danger:hover {
+                color: red
+            }
+    </style>
+}
+
+@Html.Partial("_AgentInviteTabs")
+@if (isOwner)
+{
+    <p>
+        <input id="add-agent" type="button" class="btn btn-primary" value="Добавить агента" href="@Url.Action("AddAgent", "Agency", new { companyId = ViewBag.CompanyId })" />
+    </p>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>ФИО</th>
+            <th>Открыто</th>
+            <th>Закрыто</th>
+            @if (isOwner)
+            {
+                <th>Управление</th>
+}
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var agent in Model)
+        {
+            <tr>
+                <td><a href="@Url.Action("Profile", "Account", new { id=agent.Agent.AccountId})">@agent.Agent.SecondName @agent.Agent.FirstName @agent.Agent.MiddleName</a></td>
+                <td>@agent.OpenedApartments.Count()</td>
+                <td>@agent.ClosedApartments.Count()</td>
+                @if (isOwner)
+                {
+                    <td>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown">Управление</button>
+                            <div class="dropdown-menu">
+                                @if (agent.OpenedApartments.Count() > 0)
+                                {
+                                    <a class="dropdown-item"
+                                       href="@Url.Action("AgentApartments", "Agency", new { accountId = agent.Agent.AccountId })">Объявления (@agent.OpenedApartments.Count())</a>
+                                }
+                                else
+                                {
+                                    <a class="dropdown-item">Объявления (0)</a>
+                                }
+                                <a class="dropdown-item dropdown-item-danger" name="remove-agent-btn"
+                                   href="@Url.Action("RemoveAgent", "Agency", new {companyId=ViewBag.CompanyId,  accountId=agent.Agent.AccountId})">Удалить</a>
+                            </div>
+                        </div>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+@if (isOwner)
+{
+    <div id="add-agent-modal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Добавление агента</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Ссылка для регистрации агента:</label>
+                        <div class="input-group">
+                            <input id="url-text" class="form-control" readonly />
+                            <div class="input-group-append">
+                                <button id="copy-btn" class="btn btn-primary">Копировать</button>
+                            </div>
+                        </div>
+                        <p>Агент будет добавлен, как только он пройдет регистрацию</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="remove-agent-modal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Удаление агента</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Вы уверены, что хотите удалить агента? Все его объявления будут закрыты. Если вы хотите сохранить объявления, передайте их другому агенту</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                    <a id="remove-agent" class="btn btn-danger">Удалить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts{
+    <script src="~/js/Agency/Agents.js"></script>
+}
