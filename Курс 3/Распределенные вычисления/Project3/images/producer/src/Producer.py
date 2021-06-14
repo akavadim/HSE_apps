@@ -4,6 +4,7 @@ print('Start A')
 from time import sleep
 from json import dumps
 from kafka import KafkaProducer
+import string
 import random
 print('Start B')
 producer = KafkaProducer(bootstrap_servers=['broker:9092'],
@@ -56,16 +57,16 @@ info = Info(deviceId="deviceId",
 print('Start for')
 
 # global data
-for i in range(1000):
+for i in range(500001):
     data = {
-        info.getId(): i,
-        info.getNum(): i,
-        info.getTem(): i / 100,
-        info.getLoc(): {
-            info.getLat(): i / 100,
-            info.getLon(): i / 100
+        "deviceId": i,
+        'deviceNum': i,
+        'temperature': random.uniform(-50, 50),
+        'location': {
+            'latitude': random.uniform(-90, 90),
+            'longitude': random.uniform(-180, 180)
         },
-        info.getTime(): i
+        'time': random.randint(1620000000, 1650000000)
     }
     producer.send('INPUT_DATA', value=data)
     #producer.flush()

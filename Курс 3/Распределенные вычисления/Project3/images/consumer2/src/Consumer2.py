@@ -23,30 +23,24 @@ consumer = KafkaConsumer(
     
 # sleep(20)
 
-i=0
-time = datetime.utcnow()
-for msg in consumer:
-  i+= 1
+time = None
+for (i, msg) in enumerate(consumer):
+
   if i == 0:
-    time = datetime.utcnow()
+    time = datetime.now().timestamp()
   
-  if i == 100000: 
-    print(time.timestamp() - datetime.utcnow().timestamp(), i)
-    time = datetime.utcnow()
+  if i % 100000==0 and i!=0:
+    time_spent =  datetime.now().timestamp() - time
+    time = datetime.utcnow().timestamp()
+
+    print("Время: {0} Индекс текущего элемента: {1}".format(time_spent, i))
     print(msgpack.unpackb(base64.decodebytes(msg.value["res"].encode('utf-8'))), i)
 
-  if i == 200000: 
-    print(time.timestamp() - datetime.utcnow().timestamp(), i)
-    time = datetime.utcnow()
-    print(msgpack.unpackb(base64.decodebytes(msg.value["res"].encode('utf-8'))), i)
-
-  if i == 299999: 
-    print(time.timestamp() - datetime.utcnow().timestamp(), i)
-    time = datetime.utcnow()
-    print(msgpack.unpackb(base64.decodebytes(msg.value["res"].encode('utf-8'))), i)
- 
-  if i == 300000:
+  if i == 500000:
     break
+
+  i+= 1
+  
 
 
 consumer.close()

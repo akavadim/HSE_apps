@@ -21,22 +21,22 @@ consumer = KafkaConsumer(
 
 i=0
 for msg in consumer:
-  # print('dod: ', msg.value)
+  print('Start data: ', msg.value)
   # print('dod: ', type(msg))
   # print((msg.value).decode('utf8').replace("'", '"'))
     
-  record = json.loads((msg.value).decode('utf8'))
-  location = (record['location'])
-  deviceId = int(record['deviceId'])
-  deviceNum = int(record['deviceNum'])
-  temperature = float(record['temperature'])
-  latitude = float(location['latitude'])
-  longitude = float(location['longitude'])
-  time = float(record['time'])
+  # record = json.loads((msg.value).decode('utf8'))
+  # location = (record['location'])
+  # deviceId = int(record['deviceId'])
+  # deviceNum = int(record['deviceNum'])
+  # temperature = float(record['temperature'])
+  # latitude = float(location['latitude'])
+  # longitude = float(location['longitude'])
+  # time = float(record['time'])
   
-  i+=1
-  if i>100:
-    break
+  # i+=1
+  # if i>100:
+  #   break
 
 consumer.close()
 

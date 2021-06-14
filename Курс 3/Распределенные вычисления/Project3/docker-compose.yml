@@ -124,6 +124,14 @@ services:
     volumes:
       - ./images/consumer/src/:/app
 
+  kafka_data_consumer2:
+    build: images/consumer2/ 
+    command: "python /app/Consumer2.py"
+    depends_on: 
+      - broker
+    volumes:
+      - ./images/consumer2/src/:/app
+
   kafka-data-producer:
     build: images/producer/ 
     command: "python /app/Producer.py"
